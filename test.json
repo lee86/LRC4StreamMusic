@@ -1,0 +1,3244 @@
+{
+  "code": 0,
+  "ts": 1715319629916,
+  "start_ts": 1715319629692,
+  "traceid": "46120a42c2545c35",
+  "music.search.SearchCgiService": {
+    "code": 0,
+    "data": {
+      "body": {
+        "album": {
+          "list": []
+        },
+        "gedantip": {
+          "tab": 0,
+          "tip": ""
+        },
+        "mv": {
+          "list": []
+        },
+        "qc": [],
+        "singer": {
+          "list": []
+        },
+        "song": {
+          "list": [
+            {
+              "act": 3,
+              "action": {
+                "alert": 2,
+                "icon2": 0,
+                "icons": 9609084,
+                "msgdown": 0,
+                "msgfav": 0,
+                "msgid": 14,
+                "msgpay": 6,
+                "msgshare": 0,
+                "switch": 16889603,
+                "switch2": 524288
+              },
+              "album": {
+                "id": 57989,
+                "mid": "0000r87U0DeCG2",
+                "name": "55:38:07",
+                "pmid": "0000r87U0DeCG2_1",
+                "subtitle": "",
+                "time_public": "",
+                "title": "55:38:07"
+              },
+              "bpm": 72,
+              "content": "",
+              "desc": "",
+              "desc_hilight": "",
+              "docid": "3490441101589771293",
+              "eq": 2,
+              "es": "",
+              "file": {
+                "b_30s": 0,
+                "e_30s": 0,
+                "hires_bitdepth": 0,
+                "hires_sample": 0,
+                "media_mid": "000d1pAQ2ugnXU",
+                "size_128mp3": 3671555,
+                "size_192aac": 5453523,
+                "size_192ogg": 4768451,
+                "size_24aac": 0,
+                "size_320mp3": 9178585,
+                "size_360ra": [],
+                "size_48aac": 1375506,
+                "size_96aac": 2751883,
+                "size_96ogg": 2450417,
+                "size_ape": 0,
+                "size_dolby": 0,
+                "size_dts": 0,
+                "size_flac": 0,
+                "size_hires": 0,
+                "size_new": [
+                  159108535,
+                  20994572,
+                  0,
+                  8524417,
+                  0,
+                  17802996
+                ],
+                "size_try": 0,
+                "try_begin": 52760,
+                "try_end": 83127,
+                "url": ""
+              },
+              "fnote": 4009,
+              "genre": 0,
+              "grp": [
+                {
+                  "act": 3,
+                  "action": {
+                    "alert": 11,
+                    "icon2": 0,
+                    "icons": 1217096,
+                    "msgdown": 0,
+                    "msgfav": 0,
+                    "msgid": 0,
+                    "msgpay": 0,
+                    "msgshare": 0,
+                    "switch": 1130259,
+                    "switch2": 0
+                  },
+                  "album": {
+                    "id": 99113,
+                    "mid": "0028aeWI0ouf4Y",
+                    "name": "声.体.与言",
+                    "pmid": "0028aeWI0ouf4Y_1",
+                    "subtitle": "",
+                    "time_public": "",
+                    "title": "声.体.与言"
+                  },
+                  "bpm": 72,
+                  "content": "",
+                  "desc": "",
+                  "desc_hilight": "",
+                  "docid": "16817793878158608251",
+                  "eq": 5,
+                  "es": "",
+                  "file": {
+                    "b_30s": 0,
+                    "e_30s": 0,
+                    "hires_bitdepth": 0,
+                    "hires_sample": 0,
+                    "media_mid": "002hz0wf4ayX0P",
+                    "size_128mp3": 3606769,
+                    "size_192aac": 0,
+                    "size_192ogg": 0,
+                    "size_24aac": 0,
+                    "size_320mp3": 0,
+                    "size_360ra": [],
+                    "size_48aac": 1373306,
+                    "size_96aac": 2749139,
+                    "size_96ogg": 2440035,
+                    "size_ape": 0,
+                    "size_dolby": 0,
+                    "size_dts": 0,
+                    "size_flac": 0,
+                    "size_hires": 0,
+                    "size_new": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "size_try": 0,
+                    "try_begin": 52761,
+                    "try_end": 83137,
+                    "url": ""
+                  },
+                  "fnote": 8013,
+                  "genre": 0,
+                  "grp": [],
+                  "hotness": {
+                    "desc": "",
+                    "icon_url": "",
+                    "jump_type": 0,
+                    "jump_url": ""
+                  },
+                  "href3": "",
+                  "id": 1171552,
+                  "index_album": 10,
+                  "index_cd": 0,
+                  "interval": 225,
+                  "isonly": 0,
+                  "ksong": {
+                    "id": 274071,
+                    "mid": "0038dYUI1DI763"
+                  },
+                  "label": "0",
+                  "language": 0,
+                  "lyric": "",
+                  "lyric_hilight": "",
+                  "mid": "000YU0mS4PVuW4",
+                  "mv": {
+                    "id": 0,
+                    "name": "",
+                    "title": "",
+                    "vid": "",
+                    "vt": 0
+                  },
+                  "name": "平行线",
+                  "newStatus": 2,
+                  "ov": 0,
+                  "pay": {
+                    "pay_down": 0,
+                    "pay_month": 0,
+                    "pay_play": 0,
+                    "pay_status": 0,
+                    "price_album": 0,
+                    "price_track": 0,
+                    "time_free": 0
+                  },
+                  "protect": 0,
+                  "sa": 0,
+                  "singer": [
+                    {
+                      "id": 3246,
+                      "mid": "002WH6Fs25l9rK",
+                      "name": "龚芝怡",
+                      "pmid": "",
+                      "title": "龚芝怡",
+                      "type": 1,
+                      "uin": 0
+                    }
+                  ],
+                  "status": 0,
+                  "subtitle": "",
+                  "tag": 0,
+                  "tid": 0,
+                  "time_public": "2012-03-01",
+                  "title": "平行线",
+                  "title_hilight": "<em>平行线<\/em>",
+                  "type": 0,
+                  "url": "",
+                  "version": 0,
+                  "vf": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "vi": [
+                    0
+                  ],
+                  "volume": {
+                    "gain": -3.6909999847412109,
+                    "lra": 9.5200004577636719,
+                    "peak": 0.85699999332427979
+                  },
+                  "vs": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "hotness": {
+                "desc": "",
+                "icon_url": "",
+                "jump_type": 0,
+                "jump_url": ""
+              },
+              "href3": "",
+              "id": 686566,
+              "index_album": 10,
+              "index_cd": 0,
+              "interval": 229,
+              "isonly": 0,
+              "ksong": {
+                "id": 274071,
+                "mid": "0038dYUI1DI763"
+              },
+              "label": "0",
+              "language": 0,
+              "lyric": "",
+              "lyric_hilight": "",
+              "mid": "0003X8Qz3uahmX",
+              "mv": {
+                "id": 0,
+                "name": "",
+                "title": "",
+                "vid": "",
+                "vt": 0
+              },
+              "name": "平行线",
+              "newStatus": 2,
+              "ov": 0,
+              "pay": {
+                "pay_down": 1,
+                "pay_month": 1,
+                "pay_play": 0,
+                "pay_status": 0,
+                "price_album": 0,
+                "price_track": 200,
+                "time_free": 0
+              },
+              "protect": 0,
+              "sa": 0,
+              "singer": [
+                {
+                  "id": 3246,
+                  "mid": "002WH6Fs25l9rK",
+                  "name": "龚芝怡",
+                  "pmid": "",
+                  "title": "龚芝怡",
+                  "type": 1,
+                  "uin": 0
+                }
+              ],
+              "status": 0,
+              "subtitle": "",
+              "tag": 0,
+              "tid": 0,
+              "time_public": "2010-05-14",
+              "title": "平行线",
+              "title_hilight": "<em>平行线<\/em>",
+              "type": 0,
+              "url": "",
+              "version": 0,
+              "vf": [
+                -3.7257189750671387,
+                0.92779499292373657,
+                9.5307416915893555
+              ],
+              "vi": [
+                3997
+              ],
+              "volume": {
+                "gain": -3.6619999408721924,
+                "lra": 9.5059995651245117,
+                "peak": 0.85199999809265137
+              },
+              "vs": [
+                "",
+                "",
+                "",
+                "000kQQCN2HPXQw",
+                "000o20iA17g0za",
+                "",
+                "",
+                "",
+                "",
+                "0033O42W3C3ygq",
+                ""
+              ]
+            },
+            {
+              "act": 3,
+              "action": {
+                "alert": 41,
+                "icon2": 0,
+                "icons": 14073854,
+                "msgdown": 0,
+                "msgfav": 0,
+                "msgid": 13,
+                "msgpay": 6,
+                "msgshare": 0,
+                "switch": 16897793,
+                "switch2": 0
+              },
+              "album": {
+                "id": 56529,
+                "mid": "003AyZA81iG7nx",
+                "name": "乱",
+                "pmid": "003AyZA81iG7nx_1",
+                "subtitle": "",
+                "time_public": "",
+                "title": "乱"
+              },
+              "bpm": 68,
+              "content": "",
+              "desc": "",
+              "desc_hilight": "",
+              "docid": "12402409583301971385",
+              "eq": 2,
+              "es": "",
+              "file": {
+                "b_30s": 0,
+                "e_30s": 60000,
+                "hires_bitdepth": 0,
+                "hires_sample": 0,
+                "media_mid": "0018ZPFM1QM1Tf",
+                "size_128mp3": 5016538,
+                "size_192aac": 7561789,
+                "size_192ogg": 7501041,
+                "size_24aac": 0,
+                "size_320mp3": 12541057,
+                "size_360ra": [],
+                "size_48aac": 1901641,
+                "size_96aac": 3825883,
+                "size_96ogg": 3739039,
+                "size_ape": 0,
+                "size_dolby": 0,
+                "size_dts": 0,
+                "size_flac": 37464998,
+                "size_hires": 0,
+                "size_new": [
+                  234137575,
+                  36915393,
+                  94941129,
+                  13424699,
+                  0,
+                  30862425
+                ],
+                "size_try": 960887,
+                "try_begin": 74949,
+                "try_end": 106812,
+                "url": ""
+              },
+              "fnote": 4009,
+              "genre": 0,
+              "grp": [
+                {
+                  "act": 3,
+                  "action": {
+                    "alert": 21,
+                    "icon2": 0,
+                    "icons": 14073854,
+                    "msgdown": 0,
+                    "msgfav": 0,
+                    "msgid": 13,
+                    "msgpay": 6,
+                    "msgshare": 0,
+                    "switch": 16897793,
+                    "switch2": 0
+                  },
+                  "album": {
+                    "id": 57989,
+                    "mid": "0000r87U0DeCG2",
+                    "name": "55:38:07",
+                    "pmid": "0000r87U0DeCG2_1",
+                    "subtitle": "",
+                    "time_public": "",
+                    "title": "55:38:07"
+                  },
+                  "bpm": 68,
+                  "content": "",
+                  "desc": "",
+                  "desc_hilight": "",
+                  "docid": "14468367995592274171",
+                  "eq": 2,
+                  "es": "",
+                  "file": {
+                    "b_30s": 0,
+                    "e_30s": 60000,
+                    "hires_bitdepth": 0,
+                    "hires_sample": 0,
+                    "media_mid": "001PqbEx3OZe2U",
+                    "size_128mp3": 5016550,
+                    "size_192aac": 7561888,
+                    "size_192ogg": 7500025,
+                    "size_24aac": 0,
+                    "size_320mp3": 12541069,
+                    "size_360ra": [],
+                    "size_48aac": 1901719,
+                    "size_96aac": 3825976,
+                    "size_96ogg": 3739059,
+                    "size_ape": 0,
+                    "size_dolby": 0,
+                    "size_dts": 0,
+                    "size_flac": 37464998,
+                    "size_hires": 0,
+                    "size_new": [
+                      234138101,
+                      36915126,
+                      94942939,
+                      13424702,
+                      0,
+                      30862430
+                    ],
+                    "size_try": 960887,
+                    "try_begin": 74955,
+                    "try_end": 106817,
+                    "url": ""
+                  },
+                  "fnote": 4009,
+                  "genre": 0,
+                  "grp": [],
+                  "hotness": {
+                    "desc": "",
+                    "icon_url": "",
+                    "jump_type": 0,
+                    "jump_url": ""
+                  },
+                  "href3": "",
+                  "id": 686565,
+                  "index_album": 9,
+                  "index_cd": 0,
+                  "interval": 313,
+                  "isonly": 0,
+                  "ksong": {
+                    "id": 50776,
+                    "mid": "004M0hBf2HUM3p"
+                  },
+                  "label": "0",
+                  "language": 0,
+                  "lyric": "",
+                  "lyric_hilight": "",
+                  "mid": "0007oxOj2v2T8E",
+                  "mv": {
+                    "id": 0,
+                    "name": "",
+                    "title": "",
+                    "vid": "010KoKGC3IukFI",
+                    "vt": 1
+                  },
+                  "name": "最好的我",
+                  "newStatus": 2,
+                  "ov": 0,
+                  "pay": {
+                    "pay_down": 1,
+                    "pay_month": 1,
+                    "pay_play": 1,
+                    "pay_status": 0,
+                    "price_album": 0,
+                    "price_track": 200,
+                    "time_free": 0
+                  },
+                  "protect": 0,
+                  "sa": 1024,
+                  "singer": [
+                    {
+                      "id": 3246,
+                      "mid": "002WH6Fs25l9rK",
+                      "name": "龚芝怡",
+                      "pmid": "",
+                      "title": "龚芝怡",
+                      "type": 1,
+                      "uin": 0
+                    },
+                    {
+                      "id": 106,
+                      "mid": "000HqJhm0IrkzU",
+                      "name": "房祖名",
+                      "pmid": "",
+                      "title": "房祖名",
+                      "type": 0,
+                      "uin": 0
+                    }
+                  ],
+                  "status": 0,
+                  "subtitle": "",
+                  "tag": 0,
+                  "tid": 0,
+                  "time_public": "2010-05-14",
+                  "title": "最好的我",
+                  "title_hilight": "最好的我",
+                  "type": 0,
+                  "url": "",
+                  "version": 0,
+                  "vf": [
+                    -8.0887994766235352,
+                    0.9999690055847168,
+                    4.4919919967651367
+                  ],
+                  "vi": [
+                    3997
+                  ],
+                  "volume": {
+                    "gain": -8.1450004577636719,
+                    "lra": 4.4749999046325684,
+                    "peak": 0.97600001096725464
+                  },
+                  "vs": [
+                    "062S21lO0AnPDX",
+                    "",
+                    "",
+                    "002zaUVq3I83SE",
+                    "0037sTJj2UbLHT",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "000SirGq01pJ12",
+                    ""
+                  ]
+                },
+                {
+                  "act": 3,
+                  "action": {
+                    "alert": 11,
+                    "icon2": 0,
+                    "icons": 1217096,
+                    "msgdown": 0,
+                    "msgfav": 0,
+                    "msgid": 0,
+                    "msgpay": 0,
+                    "msgshare": 0,
+                    "switch": 1130259,
+                    "switch2": 524288
+                  },
+                  "album": {
+                    "id": 0,
+                    "mid": "",
+                    "name": "",
+                    "pmid": "0030lak94GN5Ad_0",
+                    "subtitle": "",
+                    "time_public": "",
+                    "title": ""
+                  },
+                  "bpm": 0,
+                  "content": "",
+                  "desc": "",
+                  "desc_hilight": "",
+                  "docid": "6908526442298841831",
+                  "eq": 0,
+                  "es": "",
+                  "file": {
+                    "b_30s": 0,
+                    "e_30s": 0,
+                    "hires_bitdepth": 0,
+                    "hires_sample": 0,
+                    "media_mid": "002fMhaH4KL7MZ",
+                    "size_128mp3": 6336438,
+                    "size_192aac": 0,
+                    "size_192ogg": 0,
+                    "size_24aac": 0,
+                    "size_320mp3": 0,
+                    "size_360ra": [],
+                    "size_48aac": 2413942,
+                    "size_96aac": 4828085,
+                    "size_96ogg": 4645735,
+                    "size_ape": 0,
+                    "size_dolby": 0,
+                    "size_dts": 0,
+                    "size_flac": 0,
+                    "size_hires": 0,
+                    "size_new": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      34308413
+                    ],
+                    "size_try": 0,
+                    "try_begin": 235402,
+                    "try_end": 281718,
+                    "url": ""
+                  },
+                  "fnote": 8013,
+                  "genre": 0,
+                  "grp": [],
+                  "hotness": {
+                    "desc": "",
+                    "icon_url": "",
+                    "jump_type": 0,
+                    "jump_url": ""
+                  },
+                  "href3": "",
+                  "id": 429619758,
+                  "index_album": -31073,
+                  "index_cd": 0,
+                  "interval": 395,
+                  "isonly": 0,
+                  "ksong": {
+                    "id": 40945,
+                    "mid": "000FpTxz4Q11x0"
+                  },
+                  "label": "0",
+                  "language": 0,
+                  "lyric": "",
+                  "lyric_hilight": "",
+                  "mid": "002fMhaH4KL7MZ",
+                  "mv": {
+                    "id": 0,
+                    "name": "",
+                    "title": "",
+                    "vid": "",
+                    "vt": 0
+                  },
+                  "name": "最好的我",
+                  "newStatus": 2,
+                  "ov": 0,
+                  "pay": {
+                    "pay_down": 0,
+                    "pay_month": 0,
+                    "pay_play": 0,
+                    "pay_status": 0,
+                    "price_album": 0,
+                    "price_track": 0,
+                    "time_free": 0
+                  },
+                  "protect": 0,
+                  "sa": 0,
+                  "singer": [
+                    {
+                      "id": 106,
+                      "mid": "000HqJhm0IrkzU",
+                      "name": "房祖名",
+                      "pmid": "",
+                      "title": "房祖名",
+                      "type": 0,
+                      "uin": 0
+                    },
+                    {
+                      "id": 3246,
+                      "mid": "002WH6Fs25l9rK",
+                      "name": "龚芝怡",
+                      "pmid": "",
+                      "title": "龚芝怡",
+                      "type": 1,
+                      "uin": 0
+                    }
+                  ],
+                  "status": 0,
+                  "subtitle": "",
+                  "tag": 0,
+                  "tid": 0,
+                  "time_public": "",
+                  "title": "最好的我",
+                  "title_hilight": "最好的我",
+                  "type": 0,
+                  "url": "",
+                  "version": 0,
+                  "vf": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "vi": [
+                    0
+                  ],
+                  "volume": {
+                    "gain": -8.6459999084472656,
+                    "lra": 6.2129998207092285,
+                    "peak": 1
+                  },
+                  "vs": [
+                    "",
+                    "000DT6kt3kEA06",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "000BMbmz3QM92P",
+                    ""
+                  ]
+                }
+              ],
+              "hotness": {
+                "desc": "",
+                "icon_url": "",
+                "jump_type": 0,
+                "jump_url": ""
+              },
+              "href3": "",
+              "id": 669564,
+              "index_album": 9,
+              "index_cd": 0,
+              "interval": 313,
+              "isonly": 0,
+              "ksong": {
+                "id": 40945,
+                "mid": "000FpTxz4Q11x0"
+              },
+              "label": "0",
+              "language": 0,
+              "lyric": "",
+              "lyric_hilight": "",
+              "mid": "003L3pwn1k2nzr",
+              "mv": {
+                "id": 0,
+                "name": "",
+                "title": "",
+                "vid": "0117Vkkt2XTLtb",
+                "vt": 1
+              },
+              "name": "最好的我",
+              "newStatus": 2,
+              "ov": 1,
+              "pay": {
+                "pay_down": 1,
+                "pay_month": 1,
+                "pay_play": 1,
+                "pay_status": 0,
+                "price_album": 0,
+                "price_track": 200,
+                "time_free": 0
+              },
+              "protect": 11,
+              "sa": 17412,
+              "singer": [
+                {
+                  "id": 106,
+                  "mid": "000HqJhm0IrkzU",
+                  "name": "房祖名",
+                  "pmid": "",
+                  "title": "房祖名",
+                  "type": 0,
+                  "uin": 0
+                },
+                {
+                  "id": 3246,
+                  "mid": "002WH6Fs25l9rK",
+                  "name": "龚芝怡",
+                  "pmid": "",
+                  "title": "龚芝怡",
+                  "type": 1,
+                  "uin": 0
+                }
+              ],
+              "status": 0,
+              "subtitle": "",
+              "tag": 11,
+              "tid": 686565,
+              "time_public": "2010-04-16",
+              "title": "最好的我",
+              "title_hilight": "最好的我",
+              "type": 0,
+              "url": "",
+              "version": 0,
+              "vf": [
+                -8.0888004302978516,
+                0.9999690055847168,
+                4.4919929504394531
+              ],
+              "vi": [
+                19093
+              ],
+              "volume": {
+                "gain": -8.1450004577636719,
+                "lra": 4.4749999046325684,
+                "peak": 0.97600001096725464
+              },
+              "vs": [
+                "062wMbFM1RiCED",
+                "",
+                "",
+                "001CXJ6e3HDK9J",
+                "003vJGR82J4TSD",
+                "",
+                "",
+                "",
+                "",
+                "003wHEeb1JYPrZ",
+                ""
+              ]
+            },
+            {
+              "act": 3,
+              "action": {
+                "alert": 11,
+                "icon2": 0,
+                "icons": 1217096,
+                "msgdown": 0,
+                "msgfav": 0,
+                "msgid": 0,
+                "msgpay": 0,
+                "msgshare": 0,
+                "switch": 1130259,
+                "switch2": 524288
+              },
+              "album": {
+                "id": 302196,
+                "mid": "004HL2Ls3Z18dS",
+                "name": "手中线",
+                "pmid": "004HL2Ls3Z18dS_1",
+                "subtitle": "",
+                "time_public": "",
+                "title": "手中线"
+              },
+              "bpm": 63,
+              "content": "",
+              "desc": "",
+              "desc_hilight": "",
+              "docid": "2376303755424499147",
+              "eq": 2,
+              "es": "",
+              "file": {
+                "b_30s": 0,
+                "e_30s": 0,
+                "hires_bitdepth": 0,
+                "hires_sample": 0,
+                "media_mid": "000dHAWO0kwOe3",
+                "size_128mp3": 3545751,
+                "size_192aac": 0,
+                "size_192ogg": 0,
+                "size_24aac": 0,
+                "size_320mp3": 0,
+                "size_360ra": [],
+                "size_48aac": 1348161,
+                "size_96aac": 2692718,
+                "size_96ogg": 1811944,
+                "size_ape": 0,
+                "size_dolby": 0,
+                "size_dts": 0,
+                "size_flac": 0,
+                "size_hires": 0,
+                "size_new": [
+                  0,
+                  21240521,
+                  57800579,
+                  0,
+                  0,
+                  13100783
+                ],
+                "size_try": 0,
+                "try_begin": 48093,
+                "try_end": 82491,
+                "url": ""
+              },
+              "fnote": 8013,
+              "genre": 0,
+              "grp": [
+                {
+                  "act": 3,
+                  "action": {
+                    "alert": 11,
+                    "icon2": 0,
+                    "icons": 1217096,
+                    "msgdown": 0,
+                    "msgfav": 0,
+                    "msgid": 0,
+                    "msgpay": 0,
+                    "msgshare": 0,
+                    "switch": 1130259,
+                    "switch2": 524288
+                  },
+                  "album": {
+                    "id": 99113,
+                    "mid": "0028aeWI0ouf4Y",
+                    "name": "声.体.与言",
+                    "pmid": "0028aeWI0ouf4Y_1",
+                    "subtitle": "《割爱》电影主题曲",
+                    "time_public": "",
+                    "title": "声.体.与言"
+                  },
+                  "bpm": 63,
+                  "content": "",
+                  "desc": "《割爱》电影主题曲",
+                  "desc_hilight": "《割爱》电影主题曲",
+                  "docid": "1597503379788463123",
+                  "eq": 5,
+                  "es": "",
+                  "file": {
+                    "b_30s": 0,
+                    "e_30s": 0,
+                    "hires_bitdepth": 0,
+                    "hires_sample": 0,
+                    "media_mid": "004Daxse2cHM9n",
+                    "size_128mp3": 3501444,
+                    "size_192aac": 0,
+                    "size_192ogg": 0,
+                    "size_24aac": 0,
+                    "size_320mp3": 0,
+                    "size_360ra": [],
+                    "size_48aac": 1326153,
+                    "size_96aac": 2657911,
+                    "size_96ogg": 2370559,
+                    "size_ape": 0,
+                    "size_dolby": 0,
+                    "size_dts": 0,
+                    "size_flac": 0,
+                    "size_hires": 0,
+                    "size_new": [
+                      0,
+                      21583630,
+                      53392266,
+                      0,
+                      0,
+                      14586948
+                    ],
+                    "size_try": 0,
+                    "try_begin": 47593,
+                    "try_end": 82569,
+                    "url": ""
+                  },
+                  "fnote": 8013,
+                  "genre": 0,
+                  "grp": [],
+                  "hotness": {
+                    "desc": "",
+                    "icon_url": "",
+                    "jump_type": 0,
+                    "jump_url": ""
+                  },
+                  "href3": "",
+                  "id": 1171554,
+                  "index_album": 12,
+                  "index_cd": 0,
+                  "interval": 218,
+                  "isonly": 0,
+                  "ksong": {
+                    "id": 231844,
+                    "mid": "003o11DO26gVwH"
+                  },
+                  "label": "0",
+                  "language": 0,
+                  "lyric": "",
+                  "lyric_hilight": "",
+                  "mid": "000PX6uZ3SG7sq",
+                  "mv": {
+                    "id": 173958,
+                    "name": "",
+                    "title": "",
+                    "vid": "g0011t12snh",
+                    "vt": 0
+                  },
+                  "name": "手中线",
+                  "newStatus": 2,
+                  "ov": 0,
+                  "pay": {
+                    "pay_down": 0,
+                    "pay_month": 0,
+                    "pay_play": 0,
+                    "pay_status": 0,
+                    "price_album": 0,
+                    "price_track": 0,
+                    "time_free": 0
+                  },
+                  "protect": 12,
+                  "sa": 0,
+                  "singer": [
+                    {
+                      "id": 3246,
+                      "mid": "002WH6Fs25l9rK",
+                      "name": "龚芝怡",
+                      "pmid": "",
+                      "title": "龚芝怡",
+                      "type": 1,
+                      "uin": 0
+                    }
+                  ],
+                  "status": 0,
+                  "subtitle": "《割爱》电影主题曲",
+                  "tag": 12,
+                  "tid": 0,
+                  "time_public": "2012-03-01",
+                  "title": "手中线",
+                  "title_hilight": "手中线",
+                  "type": 0,
+                  "url": "",
+                  "version": 0,
+                  "vf": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "vi": [
+                    0
+                  ],
+                  "volume": {
+                    "gain": -5.4250001907348633,
+                    "lra": 11.279000282287598,
+                    "peak": 0.84899997711181641
+                  },
+                  "vs": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "003bUB3H1vQqqe",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "001zIPh844tgnn",
+                    ""
+                  ]
+                }
+              ],
+              "hotness": {
+                "desc": "",
+                "icon_url": "",
+                "jump_type": 0,
+                "jump_url": ""
+              },
+              "href3": "",
+              "id": 3574812,
+              "index_album": 1,
+              "index_cd": 0,
+              "interval": 221,
+              "isonly": 0,
+              "ksong": {
+                "id": 231844,
+                "mid": "003o11DO26gVwH"
+              },
+              "label": "0",
+              "language": 0,
+              "lyric": "",
+              "lyric_hilight": "",
+              "mid": "000ulfRq45KVrM",
+              "mv": {
+                "id": 173958,
+                "name": "",
+                "title": "",
+                "vid": "g0011t12snh",
+                "vt": 0
+              },
+              "name": "手中线",
+              "newStatus": 2,
+              "ov": 0,
+              "pay": {
+                "pay_down": 0,
+                "pay_month": 0,
+                "pay_play": 0,
+                "pay_status": 0,
+                "price_album": 0,
+                "price_track": 0,
+                "time_free": 0
+              },
+              "protect": 11,
+              "sa": 16384,
+              "singer": [
+                {
+                  "id": 3246,
+                  "mid": "002WH6Fs25l9rK",
+                  "name": "龚芝怡",
+                  "pmid": "",
+                  "title": "龚芝怡",
+                  "type": 1,
+                  "uin": 0
+                }
+              ],
+              "status": 0,
+              "subtitle": "",
+              "tag": 11,
+              "tid": 0,
+              "time_public": "2012-02-25",
+              "title": "手中线",
+              "title_hilight": "手中线",
+              "type": 0,
+              "url": "",
+              "version": 0,
+              "vf": [
+                0,
+                0,
+                0
+              ],
+              "vi": [
+                0
+              ],
+              "volume": {
+                "gain": -6.4670000076293945,
+                "lra": 6.1960000991821289,
+                "peak": 0.86900001764297485
+              },
+              "vs": [
+                "",
+                "",
+                "",
+                "",
+                "003qPYfR2heVYf",
+                "",
+                "",
+                "",
+                "",
+                "00440kfm2DHSfp",
+                ""
+              ]
+            },
+            {
+              "act": 3,
+              "action": {
+                "alert": 11,
+                "icon2": 0,
+                "icons": 1217096,
+                "msgdown": 0,
+                "msgfav": 0,
+                "msgid": 0,
+                "msgpay": 0,
+                "msgshare": 0,
+                "switch": 1130259,
+                "switch2": 524288
+              },
+              "album": {
+                "id": 99113,
+                "mid": "0028aeWI0ouf4Y",
+                "name": "声.体.与言",
+                "pmid": "0028aeWI0ouf4Y_1",
+                "subtitle": "",
+                "time_public": "",
+                "title": "声体.与言"
+              },
+              "bpm": 59,
+              "content": "",
+              "desc": "",
+              "desc_hilight": "",
+              "docid": "9730327394398708394",
+              "eq": 21,
+              "es": "",
+              "file": {
+                "b_30s": 0,
+                "e_30s": 0,
+                "hires_bitdepth": 0,
+                "hires_sample": 0,
+                "media_mid": "004XZNgm214XYa",
+                "size_128mp3": 3232698,
+                "size_192aacc": 0,
+                "size_192ogg": 0,
+                "size_24aac": 0,
+                "size_320mp3": 0,
+                "size_360ra": [],
+                "size_48aac": 1235091,
+                "size_96aac": 2465434,
+                "size_96ogg": 2162557,
+                "size_ape": 0,
+                "size_dolby": 0,
+                "size_dts": 0,
+                "size_flac": 0,
+                "size_hires": 0,
+                "size_new": [
+                  0,
+                  18885206,
+                  49162848,
+                  0,
+                  0,
+                  13544479
+                ],
+                "size_try": 0,
+                "try_begin": 79633,
+                "try_end": 191965,
+                "url": ""
+              },
+              "fnote": 8013,
+              "genre": 0,
+              "grp": [],
+              "hotness": {
+                "desc": "",
+                "icon_url": "",
+                "jump_type": 0,
+                "jump_url": ""
+              },
+              "href3": "",
+              "id": 1171551,
+              "index_album": 9,
+              "index_cd": 0,
+              "interval": 201,
+              "isonly": 0,
+              "ksong": {
+                "id": 50776,
+                "mid": "004M0hBf2HUM3p"
+              },
+              "label": "0",
+              "language": 0,
+              "lyric": "",
+              "lyric_hilight": "",
+              "mid": "001m6o9i0ELk0T",
+              "mv": {
+                "id": 0,
+                "name": "",
+                "title": "",
+                "vid": "",
+                "vt": 0
+              },
+              "name": "最好的我",
+              "newStatus": 2,
+              "ov": 0,
+              "pay": {
+                "pay_down": 0,
+                "pay_month": 0,
+                "pay_play": 0,
+                "pay_status": 0,
+                "price_album": 0,
+                "price_track": 0,
+                "time_free": 0
+              },
+              "protect": 0,
+              "sa": 8,
+              "singer": [
+                {
+                  "id": 3246,
+                  "mid": "002WH6Fs25l9rK",
+                  "name": "龚芝怡",
+                  "pmid": "",
+                  "title": "龚芝怡",
+                  "type": 1,
+                  "uin": 0
+                }
+              ],
+              "status": 0,
+              "subtitle": "",
+              "tag": 0,
+              "tid": 0,
+              "time_public": "2012-03-01",
+              "title": "最好的我",
+              "title_hilight": "最好的我",
+              "type": 0,
+              "url": "",
+              "version": 0,
+              "vf": [
+                0,
+                0,
+                0
+              ],
+              "vi": [
+                0
+              ],
+              "volume": {
+                "gain": -4.8449997901916504,
+                "lra": 5.0390000343322754,
+                "peak": 0.8529999852180481
+              },
+              "vs": [
+                "",
+                "",
+                "",
+                "",
+                "0022kJ6K1kW87a",
+                "",
+                "",
+                "",
+                "",
+                "0037vXVy4aFp7n",
+                ""
+              ]
+            },
+            {
+              "act": 3,
+              "action": {
+                "alert": 21,
+                "icon2": 0,
+                "icons": 9617276,
+                "msgdown": 0,
+                "msgfav": 0,
+                "msgid": 14,
+                "msgpay": 6,
+                "msgshare": 0,
+                "switch": 16889603,
+                "switch2": 524288
+              },
+              "album": {
+                "id": 21058679,
+                "mid": "003KLU504ZuiPl",
+                "name": "平行线 (Wish You Were Here)",
+                "pmid": "003KLU504ZuiPl_1",
+                "subtitle": "",
+                "time_public": "",
+                "title": "平行线 (Wish You Were Here)"
+              },
+              "bpm": 0,
+              "content": "",
+              "desc": "",
+              "desc_hilight": "",
+              "docid": "7639090449306672300",
+              "eq": 0,
+              "es": "",
+              "file": {
+                "b_30s": 0,
+                "e_30s": 60000,
+                "hires_bitdepth": 0,
+                "hires_sample": 0,
+                "media_mid": "004VQ5jq3KCth4",
+                "size_128mp3": 2643795,
+                "size_192aac": 3990772,
+                "size_192ogg": 3952969,
+                "size_24aac": 0,
+                "size_320mp3": 6609183,
+                "size_360ra": [],
+                "size_48aac": 1006539,
+                "size_96aac": 2015443,
+                "size_96ogg": 2013900,
+                "size_ape": 0,
+                "size_dolby": 9256505,
+                "size_dts": 0,
+                "size_flac": 19879638,
+                "size_hires": 0,
+                "size_new": [
+                  119563572,
+                  19494991,
+                  49190472,
+                  6843292,
+                  0,
+                  13974216
+                ],
+                "size_try": 960887,
+                "try_begin": 43518,
+                "try_end": 80542,
+                "url": ""
+              },
+              "fnote": 4009,
+              "genre": 0,
+              "grp": [],
+              "hotness": {
+                "desc": "",
+                "icon_url": "",
+                "jump_type": 0,
+                "jump_url": ""
+              },
+              "href3": "",
+              "id": 317833123,
+              "index_album": 2,
+              "index_cd": 0,
+              "interval": 165,
+              "isonly": 0,
+              "ksong": {
+                "id": 21762149,
+                "mid": "002KJfNy2SkCqu"
+              },
+              "label": "0",
+              "language": 0,
+              "lyric": "",
+              "lyric_hilight": "",
+              "mid": "004VQ5jq3KCth4",
+              "mv": {
+                "id": 1841739,
+                "name": "",
+                "title": "",
+                "vid": "h00407c9ltq",
+                "vt": 0
+              },
+              "name": "平行线 (Wish You Were Here)",
+              "newStatus": 2,
+              "ov": 0,
+              "pay": {
+                "pay_down": 1,
+                "pay_month": 1,
+                "pay_play": 0,
+                "pay_status": 0,
+                "price_album": 0,
+                "price_track": 200,
+                "time_free": 0
+              },
+              "protect": 11,
+              "sa": 17424,
+              "singer": [
+                {
+                  "id": 173914,
+                  "mid": "003AD17D4PYPFR",
+                  "name": "Vicetone",
+                  "pmid": "",
+                  "title": "Vicetone",
+                  "type": 2,
+                  "uin": 3620128193
+                },
+                {
+                  "id": 1538578,
+                  "mid": "003jqP0h1O8QLV",
+                  "name": "WILLIM缪维霖",
+                  "pmid": "",
+                  "title": "WILLIM缪维霖",
+                  "type": 0,
+                  "uin": 0
+                },
+                {
+                  "id": 1012042,
+                  "mid": "000oCQfT3kdonw",
+                  "name": "黄霄雲",
+                  "pmid": "",
+                  "title": "黄霄雲",
+                  "type": 1,
+                  "uin": 0
+                }
+              ],
+              "status": 0,
+              "subtitle": "",
+              "tag": 11,
+              "tid": 0,
+              "time_public": "2021-07-22",
+              "title": "平行线 (Wish You Were Here)",
+              "title_hilight": "<em>平行线<\/em> (Wish You Were Here)",
+              "type": 0,
+              "url": "",
+              "version": 0,
+              "vf": [
+                -10.084902763366699,
+                0.9999690055847168,
+                7.5255827903747559
+              ],
+              "vi": [
+                93059
+              ],
+              "volume": {
+                "gain": -10.50100040435791,
+                "lra": 7.559999942779541,
+                "peak": 0.9660000205039978
+              },
+              "vs": [
+                "0626JRYi3V2nw1",
+                "",
+                "",
+                "004K189F3sFqLe",
+                "000u2et52xlzcJ",
+                "",
+                "",
+                "",
+                "",
+                "000lXTDI3Gva2H",
+                ""
+              ]
+            },
+            {
+              "act": 3,
+              "action": {
+                "alert": 21,
+                "icon2": 0,
+                "icons": 14073854,
+                "msgdown": 0,
+                "msgfav": 0,
+                "msgid": 13,
+                "msgpay": 6,
+                "msgshare": 0,
+                "switch": 16897793,
+                "switch2": 0
+              },
+              "album": {
+                "id": 26932010,
+                "mid": "002Yv1rl4O2mvJ",
+                "name": "平行线",
+                "pmid": "002Yv1rl4O2mvJ_3",
+                "subtitle": "",
+                "time_public": "",
+                "title": "平行线"
+              },
+              "bpm": 0,
+              "content": "",
+              "desc": "",
+              "desc_hilight": "",
+              "docid": "316266822030347172",
+              "eq": 0,
+              "es": "",
+              "file": {
+                "b_30s": 0,
+                "e_30s": 60000,
+                "hires_bitdepth": 0,
+                "hires_sample": 0,
+                "media_mid": "002eezKO4Rie6T",
+                "size_128mp3": 2916717,
+                "size_192aac": 4422967,
+                "size_192ogg": 4505758,
+                "size_24aac": 0,
+                "size_320mp3": 7291045,
+                "size_360ra": [],
+                "size_48aac": 1116474,
+                "size_96aac": 2235562,
+                "size_96ogg": 2203147,
+                "size_ape": 0,
+                "size_dolby": 0,
+                "size_dts": 0,
+                "size_flac": 22447323,
+                "size_hires": 0,
+                "size_new": [
+                  136772953,
+                  22391903,
+                  55909950,
+                  8323966,
+                  0,
+                  18889332
+                ],
+                "size_try": 960887,
+                "try_begin": 106397,
+                "try_end": 128000,
+                "url": ""
+              },
+              "fnote": 4009,
+              "genre": 0,
+              "grp": [
+                {
+                  "act": 3,
+                  "action": {
+                    "alert": 21,
+                    "icon2": 0,
+                    "icons": 9617276,
+                    "msgdown": 0,
+                    "msgfav": 0,
+                    "msgid": 14,
+                    "msgpay": 6,
+                    "msgshare": 0,
+                    "switch": 16889603,
+                    "switch2": 524288
+                  },
+                  "album": {
+                    "id": 27782476,
+                    "mid": "00339ieP0DHHci",
+                    "name": "平行世界",
+                    "pmid": "00339ieP0DHHci_2",
+                    "subtitle": "",
+                    "time_public": "",
+                    "title": "平行世界"
+                  },
+                  "bpm": 0,
+                  "content": "",
+                  "desc": "",
+                  "desc_hilight": "",
+                  "docid": "12107943995627984336",
+                  "eq": 0,
+                  "es": "",
+                  "file": {
+                    "b_30s": 0,
+                    "e_30s": 0,
+                    "hires_bitdepth": 0,
+                    "hires_sample": 0,
+                    "media_mid": "000VdqWo3yfpTY",
+                    "size_128mp3": 2916719,
+                    "size_192aac": 4422967,
+                    "size_192ogg": 4505761,
+                    "size_24aac": 0,
+                    "size_320mp3": 7291047,
+                    "size_360ra": [],
+                    "size_48aac": 1116474,
+                    "size_96aac": 2235562,
+                    "size_96ogg": 2203150,
+                    "size_ape": 0,
+                    "size_dolby": 0,
+                    "size_dts": 0,
+                    "size_flac": 22447323,
+                    "size_hires": 0,
+                    "size_new": [
+                      0,
+                      0,
+                      0,
+                      8323968,
+                      0,
+                      18889336
+                    ],
+                    "size_try": 0,
+                    "try_begin": 106397,
+                    "try_end": 128000,
+                    "url": ""
+                  },
+                  "fnote": 4009,
+                  "genre": 0,
+                  "grp": [],
+                  "hotness": {
+                    "desc": "",
+                    "icon_url": "",
+                    "jump_type": 0,
+                    "jump_url": ""
+                  },
+                  "href3": "",
+                  "id": 356425417,
+                  "index_album": 1,
+                  "index_cd": 0,
+                  "interval": 182,
+                  "isonly": 0,
+                  "ksong": {
+                    "id": 30299189,
+                    "mid": "001KqDQJ3m65Ei"
+                  },
+                  "label": "0",
+                  "language": 0,
+                  "lyric": "",
+                  "lyric_hilight": "",
+                  "mid": "000Bh7dT49SWtV",
+                  "mv": {
+                    "id": 0,
+                    "name": "",
+                    "title": "",
+                    "vid": "011IlYET0KJZdl",
+                    "vt": 1
+                  },
+                  "name": "平行线",
+                  "newStatus": 2,
+                  "ov": 0,
+                  "pay": {
+                    "pay_down": 1,
+                    "pay_month": 1,
+                    "pay_play": 0,
+                    "pay_status": 0,
+                    "price_album": 0,
+                    "price_track": 200,
+                    "time_free": 0
+                  },
+                  "protect": 0,
+                  "sa": 2048,
+                  "singer": [
+                    {
+                      "id": 3516593,
+                      "mid": "001RRzHr32gtwe",
+                      "name": "沙一汀EL",
+                      "pmid": "",
+                      "title": "沙一汀EL",
+                      "type": 0,
+                      "uin": 0
+                    }
+                  ],
+                  "status": 0,
+                  "subtitle": "",
+                  "tag": 0,
+                  "tid": 0,
+                  "time_public": "2022-05-18",
+                  "title": "平行线",
+                  "title_hilight": "<em>平行线<\/em>",
+                  "type": 0,
+                  "url": "",
+                  "version": 0,
+                  "vf": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "vi": [
+                    3997
+                  ],
+                  "volume": {
+                    "gain": -9.7760000228881836,
+                    "lra": 3.8529999256134033,
+                    "peak": 1
+                  },
+                  "vs": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "001lJLbS2Hf1Im",
+                    ""
+                  ]
+                }
+              ],
+              "hotness": {
+                "desc": "",
+                "icon_url": "",
+                "jump_type": 0,
+                "jump_url": ""
+              },
+              "href3": "",
+              "id": 352087530,
+              "index_album": 1,
+              "index_cd": 0,
+              "interval": 182,
+              "isonly": 0,
+              "ksong": {
+                "id": 30299189,
+                "mid": "001KqDQJ3m65Ei"
+              },
+              "label": "0",
+              "language": 0,
+              "lyric": "",
+              "lyric_hilight": "",
+              "mid": "000k7sG04FfpDy",
+              "mv": {
+                "id": 0,
+                "name": "",
+                "title": "",
+                "vid": "012muYJH1ims3d",
+                "vt": 1
+              },
+              "name": "平行线",
+              "newStatus": 2,
+              "ov": 0,
+              "pay": {
+                "pay_down": 1,
+                "pay_month": 1,
+                "pay_play": 1,
+                "pay_status": 0,
+                "price_album": 0,
+                "price_track": 200,
+                "time_free": 0
+              },
+              "protect": 11,
+              "sa": 22528,
+              "singer": [
+                {
+                  "id": 3516593,
+                  "mid": "001RRzHr32gtwe",
+                  "name": "沙一汀EL",
+                  "pmid": "",
+                  "title": "沙一汀EL",
+                  "type": 0,
+                  "uin": 0
+                }
+              ],
+              "status": 0,
+              "subtitle": "",
+              "tag": 11,
+              "tid": 0,
+              "time_public": "2022-04-15",
+              "title": "平行线",
+              "title_hilight": "<em>平行线<\/em>",
+              "type": 0,
+              "url": "",
+              "version": 0,
+              "vf": [
+                -9.5237312316894531,
+                0.9999690055847168,
+                3.8581359386444092
+              ],
+              "vi": [
+                3997
+              ],
+              "volume": {
+                "gain": -9.7760000228881836,
+                "lra": 3.8529999256134033,
+                "peak": 1
+              },
+              "vs": [
+                "06105fs11ePpW1",
+                "",
+                "",
+                "0018kVps4QLEzc",
+                "001EF5A30sdnGc",
+                "",
+                "",
+                "",
+                "",
+                "002RujNB3ep10O",
+                ""
+              ]
+            },
+            {
+              "act": 3,
+              "action": {
+                "alert": 41,
+                "icon2": 0,
+                "icons": 14073854,
+                "msgdown": 0,
+                "msgfav": 0,
+                "msgid": 13,
+                "msgpay": 6,
+                "msgshare": 0,
+                "switch": 16897793,
+                "switch2": 0
+              },
+              "album": {
+                "id": 1843631,
+                "mid": "004Tol0v10hSRp",
+                "name": "平行線",
+                "pmid": "004Tol0v10hSRp_1",
+                "subtitle": "《人渣的本愿》TV动画片尾曲",
+                "time_public": "",
+                "title": "平行線 (平行线)"
+              },
+              "bpm": 95,
+              "content": "",
+              "desc": "译名: 平行线 | 《人渣的本愿》TV动画片尾曲",
+              "desc_hilight": "译名: <em>平行线<\/em> | 《人渣的本愿》TV动画片尾曲",
+              "docid": "12073747814267452633",
+              "eq": 0,
+              "es": "",
+              "file": {
+                "b_30s": 0,
+                "e_30s": 60000,
+                "hires_bitdepth": 0,
+                "hires_sample": 0,
+                "media_mid": "003kDzD32wlSfp",
+                "size_128mp3": 4788334,
+                "size_192aac": 7215192,
+                "size_192ogg": 6811864,
+                "size_24aac": 0,
+                "size_320mp3": 11970144,
+                "size_360ra": [],
+                "size_48aac": 1812356,
+                "size_96aac": 3643668,
+                "size_96ogg": 3374235,
+                "size_ape": 0,
+                "size_dolby": 0,
+                "size_dts": 0,
+                "size_flac": 38816036,
+                "size_hires": 0,
+                "size_new": [
+                  239860432,
+                  39344575,
+                  101489464,
+                  11735335,
+                  0,
+                  26731794
+                ],
+                "size_try": 960887,
+                "try_begin": 69738,
+                "try_end": 113003,
+                "url": ""
+              },
+              "fnote": 4009,
+              "genre": 0,
+              "grp": [
+                {
+                  "act": 3,
+                  "action": {
+                    "alert": 21,
+                    "icon2": 0,
+                    "icons": 14073854,
+                    "msgdown": 0,
+                    "msgfav": 0,
+                    "msgid": 13,
+                    "msgpay": 6,
+                    "msgshare": 0,
+                    "switch": 16897793,
+                    "switch2": 0
+                  },
+                  "album": {
+                    "id": 1990002,
+                    "mid": "002CB3UA2PJPec",
+                    "name": "ミカヅキの航海",
+                    "pmid": "002CB3UA2PJPec_1",
+                    "subtitle": "《人渣的本愿》TV动画片尾曲",
+                    "time_public": "",
+                    "title": "ミカヅキの航海(新月的航海)"
+                  },
+                  "bpm": 0,
+                  "content": "",
+                  "desc": "译名: 平行线 | 《人渣的本愿》TV动画片尾曲",
+                  "desc_hilight": "译名: <em>平行线<\/em> | 《人渣的本愿》TV动画片尾曲",
+                  "docid": "13182050514926805350",
+                  "eq": 0,
+                  "es": "",
+                  "file": {
+                    "b_30s": 0,
+                    "e_30s": 60000,
+                    "hires__bitdepth": 0,
+                    "hires_sample": 0,
+                    "media_mid": "003QnocK2ximid",
+                    "size_128mp3": 4781245,
+                    "size_192aac": 7186205,
+                    "size_192ogg": 6811288,
+                    "size_24aac": 0,
+                    "size_320mp3": 11952797,
+                    "size_360ra": [],
+                    "size_48aac": 1807242,
+                    "size_96aac": 3616997,
+                    "size_96ogg": 3358111,
+                    "size_ape": 0,
+                    "size_dolby": 0,
+                    "size_dts": 0,
+                    "size_flac": 38822278,
+                    "size_hires": 0,
+                    "size_new": [
+                      239732775,
+                      39311774,
+                      101902135,
+                      11732139,
+                      0,
+                      26700934
+                    ],
+                    "size_try": 960887,
+                    "try_begin": 69372,
+                    "try_end": 112983,
+                    "url": ""
+                  },
+                  "fnote": 4009,
+                  "genre": 0,
+                  "grp": [],
+                  "hotness": {
+                    "desc": "",
+                    "icon_url": "",
+                    "jump_type": 0,
+                    "jump_url": ""
+                  },
+                  "href3": "",
+                  "id": 201231935,
+                  "index_album": 2,
+                  "index_cd": 0,
+                  "interval": 298,
+                  "isonly": 0,
+                  "ksong": {
+                    "id": 2709726,
+                    "mid": "004fEJcc2l8nrT"
+                  },
+                  "label": "0",
+                  "language": 3,
+                  "lyric": "",
+                  "lyric_hilight": "",
+                  "mid": "0049QG1u1dlIRg",
+                  "mv": {
+                    "id": 0,
+                    "name": "",
+                    "title": "",
+                    "vid": "n0036fqaxrl",
+                    "vt": 1
+                  },
+                  "name": "平行線",
+                  "newStatus": 2,
+                  "ov": 0,
+                  "pay": {
+                    "pay_down": 1,
+                    "pay_month": 1,
+                    "pay_play": 1,
+                    "pay_status": 0,
+                    "price_album": 0,
+                    "price_track": 200,
+                    "time_free": 0
+                  },
+                  "protect": 10,
+                  "sa": 16384,
+                  "singer": [
+                    {
+                      "id": 1000974,
+                      "mid": "003xu5WK3e3nGK",
+                      "name": "酸欠少女さユり",
+                      "pmid": "",
+                      "title": "酸欠少女さユり (Sayuri)",
+                      "type": 1,
+                      "uin": 0
+                    }
+                  ],
+                  "status": 0,
+                  "subtitle": "《人渣的本愿》TV动画 片尾曲",
+                  "tag": 10,
+                  "tid": 0,
+                  "time_public": "2017-05-17",
+                  "title": "平行線",
+                  "title_hilight": "<em>平行線<\/em>",
+                  "type": 0,
+                  "url": "",
+                  "version": 0,
+                  "vf": [
+                    -12.309174537658691,
+                    0.9999690055847168,
+                    6.1937170028686523
+                  ],
+                  "vi": [
+                    5
+                  ],
+                  "volume": {
+                    "gain": -13,
+                    "lra": 6.1750001907348633,
+                    "peak": 0.98299998044967651
+                  },
+                  "vs": [
+                    "0630JKDb3aotrT",
+                    "",
+                    "",
+                    "001454hb3zHJHv",
+                    "001yzGyQ0kq1sb",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0044GJZi4SQWwK",
+                    ""
+                  ]
+                },
+                {
+                  "act": 3,
+                  "action": {
+                    "alert": 11,
+                    "icon2": 0,
+                    "icons": 1217096,
+                    "msgdown": 0,
+                    "msgfav": 0,
+                    "msgid": 0,
+                    "msgpay": 0,
+                    "msgshare": 0,
+                    "switch": 3227447,
+                    "switch2": 524288
+                  },
+                  "album": {
+                    "id": 1874946,
+                    "mid": "004RekzH0L2fBd",
+                    "name": "平行線(期間生産限定盤)",
+                    "pmid": "004RekzH0L2fBd_1",
+                    "subtitle": "《人渣的本愿》TV动画片尾曲",
+                    "time_public": "",
+                    "title": "平行(期間生産限定盤)"
+                  },
+                  "bpm": 95,
+                  "content": "",
+                  "desc": "译名: 平行线 | 《人渣的本愿》TV动画片尾曲",
+                  "desc_hilight": "译名: <em>平行线<\/em> | 《人渣的本愿》TV动画片尾曲",
+                  "docid": "3702660080461556983",
+                  "eq": 0,
+                  "es": "",
+                  "file": {
+                    "b_30s": 0,
+                    "e_30s": 0,
+                    "hires s_bitdepth": 0,
+                    "hires_sample": 0,
+                    "media_mid": "003QJ5wH0JKwMm",
+                    "size_128mp3": 4788352,
+                    "size_192aac": 7215396,
+                    "size_192ogg": 6812693,
+                    "size_24aac": 0,
+                    "size_320mp3": 11970563,
+                    "size_360ra": [],
+                    "size_48aac": 1812396,
+                    "size_96aac": 3643685,
+                    "size_96ogg": 3374104,
+                    "size_ape": 0,
+                    "size_dolby": 0,
+                    "size_dts": 0,
+                    "size_flac": 38816036,
+                    "size_hires": 0,
+                    "size_new": [
+                      0,
+                      39344522,
+                      101955137,
+                      11735358,
+                      0,
+                      26731817
+                    ],
+                    "size_try": 0,
+                    "try_begin": 69737,
+                    "try_end": 112998,
+                    "url": ""
+                  },
+                  "fnote": 8013,
+                  "genre": 0,
+                  "grp": [],
+                  "hotness": {
+                    "desc": "",
+                    "icon_url": "",
+                    "jump_type": 0,
+                    "jump_url": ""
+                  },
+                  "href3": "",
+                  "id": 200898715,
+                  "index_album": 1,
+                  "index_cd": 0,
+                  "interval": 299,
+                  "isonly": 0,
+                  "ksong": {
+                    "id": 2709726,
+                    "mid": "004fEJcc2l8nrT"
+                  },
+                  "label": "0",
+                  "language": 3,
+                  "lyric": "",
+                  "lyric_hilight": "",
+                  "mid": "002HQeLP1b8ROz",
+                  "mv": {
+                    "id": 0,
+                    "name": "",
+                    "title": "",
+                    "vid": "n0036fqaxrl",
+                    "vt": 1
+                  },
+                  "name": "平行線",
+                  "newStatus": 2,
+                  "ov": 0,
+                  "pay": {
+                    "pay_down": 0,
+                    "pay_month": 0,
+                    "pay_play": 0,
+                    "pay_status": 0,
+                    "price_album": 0,
+                    "price_track": 0,
+                    "time_free": 0
+                  },
+                  "protect": 0,
+                  "sa": 8,
+                  "singer": [
+                    {
+                      "id": 1000974,
+                      "mid": "003xu5WK3e3nGK",
+                      "name": "酸欠少女さユり",
+                      "pmid": "",
+                      "title": "酸欠少女さユり (Sayuri)",
+                      "type": 1,
+                      "uin": 0
+                    }
+                  ],
+                  "status": 0,
+                  "subtitle": "《人渣的本愿》TV动画片尾曲",
+                  "tag": 0,
+                  "tid": 0,
+                  "time_public": "2017-03-01",
+                  "title": "平行線",
+                  "title_hilight": "<em>平行線<\/em>",
+                  "type": 0,
+                  "url": "",
+                  "version": 0,
+                  "vf": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "vi": [
+                    30059
+                  ],
+                  "volume": {
+                    "gain": -12.996000289916992,
+                    "lra": 6.1550002098083496,
+                    "peak": 0.98299998044967651
+                  },
+                  "vs": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "002jlL7d2XYlyr",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "001f853I1vVwKn",
+                    ""
+                  ]
+                },
+                {
+                  "act": 3,
+                  "action": {
+                    "alert": 11,
+                    "icon2": 0,
+                    "icons": 1217096,
+                    "msgdown": 0,
+                    "msgfav": 0,
+                    "msgid": 0,
+                    "msgpay": 0,
+                    "msgshare": 0,
+                    "switch": 3227447,
+                    "switch2": 0
+                  },
+                  "album": {
+                    "id": 1874954,
+                    "mid": "002yduu01Ilqpx",
+                    "name": "平行線(初回生産限定盤)",
+                    "pmid": "002yduu01Ilqpx_1",
+                    "subtitle": "《人渣的本愿》TV动画片尾曲",
+                    "time_public": "",
+                    "title": "平行線(初回生産限定盤)"
+                  },
+                  "bpm": 95,
+                  "content": "",
+                  "desc": "译名: 平行线 | 《人渣的本愿 》TV动画片尾曲",
+                  "desc_hilight": "译名: <em>平行线<\/em> | 《人渣的本愿》TV动画片尾曲",
+                  "docid": "5874147560692235489",
+                  "eq": 0,
+                  "es": "",
+                  "file": {
+                    "b_30s": 0,
+                    "e_30s": 0,
+                    "hires_bitdepth": 0,
+                    "hires_sample": 0,
+                    "media_mid": "004Rl5ZH1gMTqt",
+                    "size_128mp3": 4788352,
+                    "size_192aac": 7215163,
+                    "size_192ogg": 6811642,
+                    "size_24aac": 0,
+                    "size_320mp3": 11970563,
+                    "size_360ra": [],
+                    "size_48aac": 1812319,
+                    "size_96aac": 3643770,
+                    "size_96ogg": 3374232,
+                    "size_ape": 0,
+                    "size_dolby": 0,
+                    "size_dts": 0,
+                    "size_flac": 38816036,
+                    "size_hires": 0,
+                    "size_new": [
+                      0,
+                      0,
+                      0,
+                      11735359,
+                      0,
+                      0
+                    ],
+                    "size_try": 0,
+                    "try_begin": 69735,
+                    "try_end": 113001,
+                    "url": ""
+                  },
+                  "fnote": 8013,
+                  "genre": 0,
+                  "grp": [],
+                  "hotness": {
+                    "desc": "",
+                    "icon_url": "",
+                    "jump_type": 0,
+                    "jump_url": ""
+                  },
+                  "href3": "",
+                  "id": 200898766,
+                  "index_album": 1,
+                  "index_cd": 0,
+                  "interval": 299,
+                  "isonly": 0,
+                  "ksong": {
+                    "id": 2709726,
+                    "mid": "004fEJcc2l8nrT"
+                  },
+                  "label": "0",
+                  "language": 3,
+                  "lyric": "",
+                  "lyric_hilight": "",
+                  "mid": "000hzwtQ0Lh0sY",
+                  "mv": {
+                    "id": 0,
+                    "name": "",
+                    "title": "",
+                    "vid": "n0036fqaxrl",
+                    "vt": 1
+                  },
+                  "name": "平行線",
+                  "newStatus": 2,
+                  "ov": 0,
+                  "pay": {
+                    "pay_down": 0,
+                    "pay_month": 0,
+                    "pay_play": 0,
+                    "pay_status": 0,
+                    "price_album": 0,
+                    "price_track": 0,
+                    "time_free": 0
+                  },
+                  "protect": 0,
+                  "sa": 0,
+                  "singer": [
+                    {
+                      "id": 1000974,
+                      "mid": "003xu5WK3e3nGK",
+                      "name": "酸欠少女さユり",
+                      "pmid": "",
+                      "title": "酸欠少女さユり (Sayuri)",
+                      "type": 1,
+                      "uin": 0
+                    }
+                  ],
+                  "status": 0,
+                  "subtitle": "《人渣的本愿》TV动画片尾曲",
+                  "tag": 0,
+                  "tid": 0,
+                  "time_public": "2017-03-01",
+                  "title": "平行線",
+                  "title_hilight": "<em>平行線<\/em>",
+                  "type": 0,
+                  "url": "",
+                  "version": 0,
+                  "vf": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "vi": [
+                    30059
+                  ],
+                  "volume": {
+                    "gain": -12.996000289916992,
+                    "lra": 6.1550002098083496,
+                    "peak": 0.98299998044967651
+                  },
+                  "vs": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "hotness": {
+                "desc": "",
+                "icon_url": "",
+                "jump_type": 0,
+                "jump_url": ""
+              },
+              "href3": "",
+              "id": 200471294,
+              "index_album": 1,
+              "index_cd": 0,
+              "interval": 299,
+              "isonly": 0,
+              "ksong": {
+                "id": 2709726,
+                "mid": "004fEJcc2l8nrT"
+              },
+              "label": "0",
+              "language": 3,
+              "lyric": "",
+              "lyric_hilight": "",
+              "mid": "0012R04A0KPJ5Z",
+              "mv": {
+                "id": 0,
+                "name": "",
+                "title": "",
+                "vid": "n0036fqaxrl",
+                "vt": 1
+              },
+              "name": "平行線",
+              "newStatus": 2,
+              "ov": 0,
+              "pay": {
+                "pay_down": 1,
+                "pay_month": 1,
+                "pay_play": 1,
+                "pay_status": 0,
+                "price_album": 0,
+                "price_track": 200,
+                "time_free": 0
+              },
+              "protect": 11,
+              "sa": 0,
+              "singer": [
+                {
+                  "id": 1000974,
+                  "mid": "003xu5WK3e3nGK",
+                  "name": "酸欠少女さユり",
+                  "pmid": "",
+                  "title": "酸欠少女さユり (Sayuri)",
+                  "type": 1,
+                  "uin": 0
+                }
+              ],
+              "status": 0,
+              "subtitle": "《人渣的本愿》TV动画片尾曲",
+              "tag": 11,
+              "tid": 0,
+              "time_public": "2017-03-01",
+              "title": "平行線",
+              "title_hilight": "<em>平行線<\/em>",
+              "type": 0,
+              "url": "",
+              "version": 0,
+              "vf": [
+                -12.549527168273926,
+                0.9999690055847168,
+                6.165259838104248
+              ],
+              "vi": [
+                5
+              ],
+              "volume": {
+                "gain": -12.996000289916992,
+                "lra": 6.1550002098083496,
+                "peak": 0.98299998044967651
+              },
+              "vs": [
+                "0630UO3i0MhKof",
+                "",
+                "",
+                "000q9yrs1EJUmw",
+                "001QJ7Gs3yLM4o",
+                "",
+                "",
+                "",
+                "",
+                "003Y3yMG14oY1L",
+                ""
+              ]
+            },
+            {
+              "act": 3,
+              "action": {
+                "alert": 2,
+                "icon2": 0,
+                "icons": 9609084,
+                "msgdown": 0,
+                "msgfav": 0,
+                "msgid": 14,
+                "msgpay": 6,
+                "msgshare": 0,
+                "switch": 16889603,
+                "switch2": 524288
+              },
+              "album": {
+                "id": 57989,
+                "mid": "0000r87U0DeCG2",
+                "name": "55:38:07",
+                "pmid": "0000r87U0DeCG2_1",
+                "subtitle": "",
+                "time_public": "",
+                "title": "55:38:07"
+              },
+              "bpm": 0,
+              "content": "",
+              "desc": "",
+              "desc_hilight": "",
+              "docid": "14637709410799159006",
+              "eq": 2,
+              "es": "",
+              "file": {
+                "b_30s": 0,
+                "e_30s": 0,
+                "hires_bitdepth": 0,
+                "hires_sample": 0,
+                "media_mid": "003OtCfw1A0huW",
+                "size_128mp3": 4501208,
+                "size_192aac": 6765013,
+                "size_192ogg": 6140630,
+                "size_24aac": 0,
+                "size_320mp3": 11252712,
+                "size_360ra": [],
+                "size_48aac": 1702221,
+                "size_96aac": 3405625,
+                "size_96ogg": 3126835,
+                "size_ape": 0,
+                "size_dolby": 0,
+                "size_dts": 0,
+                "size_flac": 31369201,
+                "size_hires": 0,
+                "size_new": [
+                  0,
+                  31054185,
+                  78976155,
+                  10660300,
+                  0,
+                  22666554
+                ],
+                "size_try": 0,
+                "try_begin": 73485,
+                "try_end": 126472,
+                "url": ""
+              },
+              "fnote": 4009,
+              "genre": 0,
+              "grp": [
+                {
+                  "act": 3,
+                  "action": {
+                    "alert": 2,
+                    "icon2": 0,
+                    "icons": 9609084,
+                    "msgdown": 0,
+                    "msgfav": 0,
+                    "msgid": 14,
+                    "msgpay": 6,
+                    "msgshare": 0,
+                    "switch": 16889603,
+                    "switch2": 0
+                  },
+                  "album": {
+                    "id": 99113,
+                    "mid": "0028aeWI0ouf4Y",
+                    "name": "声.体.与言",
+                    "pmid": "0028aeWI0ouf4Y_1",
+                    "subtitle": "",
+                    "time_public": "",
+                    "title": "声.体.与言"
+                  },
+                  "bpm": 64,
+                  "content": "",
+                  "desc": "",
+                  "desc_hilight": "",
+                  "docid": "16406609858903997554",
+                  "eq": 2,
+                  "es": "",
+                  "file": {
+                    "b_30s": 0,
+                    "e_30s": 0,
+                    "hires_bitdepth": 0,
+                    "hires_sample": 0,
+                    "media_mid": "002kmA6r01QfMS",
+                    "size_128mp3": 4502042,
+                    "size_192aac": 6771471,
+                    "size_192ogg": 6039247,
+                    "size_24aac": 0,
+                    "size_320mp3": 11254800,
+                    "size_360ra": [],
+                    "size_48aac": 1703822,
+                    "size_96aac": 3408996,
+                    "size_96ogg": 3080897,
+                    "size_ape": 0,
+                    "size_dolby": 0,
+                    "size_dts": 0,
+                    "size_flac": 0,
+                    "size_hires": 0,
+                    "size_new": [
+                      198115397,
+                      0,
+                      0,
+                      10202156,
+                      0,
+                      0
+                    ],
+                    "size_try": 0,
+                    "try_begin": 0,
+                    "try_end": 0,
+                    "url": ""
+                  },
+                  "fnote": 4009,
+                  "genre": 0,
+                  "grp": [],
+                  "hotness": {
+                    "desc": "",
+                    "icon_url": "",
+                    "jump_type": 0,
+                    "jump_url": ""
+                  },
+                  "href3": "",
+                  "id": 1171546,
+                  "index_album": 4,
+                  "index_cd": 0,
+                  "interval": 281,
+                  "isonly": 0,
+                  "ksong": {
+                    "id": 49925,
+                    "mid": "002uz6xd4VXG5O"
+                  },
+                  "label": "0",
+                  "language": 0,
+                  "lyric": "",
+                  "lyric_hilight": "",
+                  "mid": "001O3SW01PGu3U",
+                  "mv": {
+                    "id": 171882,
+                    "name": "",
+                    "title": "",
+                    "vid": "x0011xgvv7t",
+                    "vt": 0
+                  },
+                  "name": "明知我爱你",
+                  "newStatus": 2,
+                  "ov": 0,
+                  "pay": {
+                    "pay_down": 1,
+                    "pay_month": 1,
+                    "pay_play": 0,
+                    "pay_status": 0,
+                    "price_album": 0,
+                    "price_track": 200,
+                    "time_free": 0
+                  },
+                  "protect": 0,
+                  "sa": 0,
+                  "singer": [
+                    {
+                      "id": 3246,
+                      "mid": "002WH6Fs25l9rK",
+                      "name": "龚芝怡",
+                      "pmid": "",
+                      "title": "龚芝怡",
+                      "type": 1,
+                      "uin": 0
+                    }
+                  ],
+                  "status": 0,
+                  "subtitle": "",
+                  "tag": 0,
+                  "tid": 0,
+                  "time_public": "2012-03-01",
+                  "title": "明知我爱你",
+                  "title_hilight": "明知我爱你",
+                  "type": 0,
+                  "url": "",
+                  "version": 0,
+                  "vf": [
+                    -6.4750618934631348,
+                    0.9019780158996582,
+                    10.447772026062012
+                  ],
+                  "vi": [
+                    3997
+                  ],
+                  "volume": {
+                    "gain": -6.4219999313354492,
+                    "lra": 10.526000022888184,
+                    "peak": 0.87199997901916504
+                  },
+                  "vs": [
+                    "",
+                    "",
+                    "",
+                    "004FIndX2zcc2h",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "hotness": {
+                "desc": "",
+                "icon_url": "",
+                "jump_type": 0,
+                "jump_url": ""
+              },
+              "href3": "",
+              "id": 686560,
+              "index_album": 4,
+              "index_cd": 0,
+              "interval": 281,
+              "isonly": 0,
+              "ksong": {
+                "id": 49925,
+                "mid": "002uz6xd4VXG5O"
+              },
+              "label": "0",
+              "language": 0,
+              "lyric": "",
+              "lyric_hilight": "",
+              "mid": "0009eGG14DO4aN",
+              "mv": {
+                "id": 171882,
+                "name": "",
+                "title": "",
+                "vid": "x0011xgvv7t",
+                "vt": 0
+              },
+              "name": "明知我爱你",
+              "newStatus": 2,
+              "ov": 0,
+              "pay": {
+                "pay_down": 1,
+                "pay_month": 1,
+                "pay_play": 0,
+                "pay_status": 0,
+                "price_album": 0,
+                "price_track": 200,
+                "time_free": 0
+              },
+              "protect": 0,
+              "sa": 0,
+              "singer": [
+                {
+                  "id": 3246,
+                  "mid": "002WH6Fs25l9rK",
+                  "name": "龚芝怡",
+                  "pmid": "",
+                  "title": "龚芝怡",
+                  "type": 1,
+                  "uin": 0
+                }
+              ],
+              "status": 0,
+              "subtitle": "",
+              "tag": 0,
+              "tid": 0,
+              "time_public": "2010-05-14",
+              "title": "明知我爱你",
+              "title_hilight": "明知我爱你",
+              "type": 0,
+              "url": "",
+              "version": 0,
+              "vf": [
+                0,
+                0,
+                0
+              ],
+              "vi": [
+                3997
+              ],
+              "volume": {
+                "gain": -7.9159998893737793,
+                "lra": 10.524999618530273,
+                "peak": 1
+              },
+              "vs": [
+                "",
+                "",
+                "",
+                "",
+                "002d3FO33iM5pl",
+                "",
+                "",
+                "",
+                "",
+                "002A2TI43AWjSl",
+                ""
+              ]
+            },
+            {
+              "act": 3,
+              "action": {
+                "alert": 2,
+                "icon2": 0,
+                "icons": 9609084,
+                "msgdown": 0,
+                "msgfav": 0,
+                "msgid": 14,
+                "msgpay": 6,
+                "msgshare": 0,
+                "switch": 16889603,
+                "switch2": 524288
+              },
+              "album": {
+                "id": 57989,
+                "mid": "0000r87U0DeCG2",
+                "name": "55:38:07",
+                "pmid": "0000r87U0DeCG2_1",
+                "subtitle": "",
+                "time_public": "",
+                "title": "55:38:07"
+              },
+              "bpm": 72,
+              "content": "",
+              "desc": "",
+              "desc_hilight": "",
+              "docid": "751184704404851330",
+              "eq": 2,
+              "es": "",
+              "file": {
+                "b_30s": 0,
+                "e_30s": 0,
+                "hires_bitdepth": 0,
+                "hires_sample": 0,
+                "media_mid": "002N6TrR3iJcaR",
+                "size_128mp3": 3505629,
+                "size_192aac": 5284489,
+                "size_192ogg": 4869514,
+                "size_24aac": 0,
+                "size_320mp3": 8763765,
+                "size_360ra": [],
+                "size_48aac": 1330437,
+                "size_96aac": 2673867,
+                "size_96ogg": 2474593,
+                "size_ape": 0,
+                "size_dolby": 0,
+                "size_dts": 0,
+                "size_flac": 24258364,
+                "size_hires": 0,
+                "size_new": [
+                  157985267,
+                  24139815,
+                  61186496,
+                  8379620,
+                  0,
+                  17928428
+                ],
+                "size_try": 0,
+                "try_begin": 67304,
+                "try_end": 100156,
+                "url": ""
+              },
+              "fnote": 4009,
+              "genre": 0,
+              "grp": [
+                {
+                  "act": 3,
+                  "action": {
+                    "alert": 2,
+                    "icon2": 0,
+                    "icons": 9609084,
+                    "msgdown": 0,
+                    "msgfav": 0,
+                    "msgid": 14,
+                    "msgpay": 6,
+                    "msgshare": 0,
+                    "switch": 16889603,
+                    "switch2": 0
+                  },
+                  "album": {
+                    "id": 99113,
+                    "mid": "0028aeWI0ouf4Y",
+                    "name": "声.体.与言",
+                    "pmid": "0028aeWI0ouf4Y_1",
+                    "subtitle": "",
+                    "time_public": "",
+                    "title": "声.体.与言"
+                  },
+                  "bpm": 72,
+                  "content": "",
+                  "desc": "",
+                  "desc_hilight": "",
+                  "docid": "11097965144307459422",
+                  "eq": 2,
+                  "es": "",
+                  "file": {
+                    "b_30s": 0,
+                    "e_30s": 0,
+                    "hires_bitdepth": 0,
+                    "hires_sample": 0,
+                    "media_mid": "003gjnG43mfbXW",
+                    "size_128mp3": 3505625,
+                    "size_192aac": 0,
+                    "size_192ogg": 0,
+                    "size_24aac": 0,
+                    "size_320mp3": 0,
+                    "size_360ra": [],
+                    "size_48aac": 1327411,
+                    "size_96aac": 2656711,
+                    "size_96ogg": 2444463,
+                    "size_ape": 0,
+                    "size_dolby": 0,
+                    "size_dts": 0,
+                    "size_flac": 0,
+                    "size_hires": 0,
+                    "size_new": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "size_try": 0,
+                    "try_begin": 67716,
+                    "try_end": 100163,
+                    "url": ""
+                  },
+                  "fnote": 4009,
+                  "genre": 0,
+                  "grp": [],
+                  "hotness": {
+                    "desc": "",
+                    "icon_url": "",
+                    "jump_type": 0,
+                    "jump_url": ""
+                  },
+                  "href3": "",
+                  "id": 1171545,
+                  "index_album": 3,
+                  "index_cd": 0,
+                  "interval": 219,
+                  "isonly": 0,
+                  "ksong": {
+                    "id": 292857,
+                    "mid": "002ws73n2DThPG"
+                  },
+                  "label": "0",
+                  "language": 0,
+                  "lyric": "",
+                  "lyric_hilight": "",
+                  "mid": "004fOFOA2F7W7l",
+                  "mv": {
+                    "id": 0,
+                    "name": "",
+                    "title": "",
+                    "vid": "",
+                    "vt": 0
+                  },
+                  "name": "在我左右",
+                  "newStatus": 2,
+                  "ov": 0,
+                  "pay": {
+                    "pay_down": 1,
+                    "pay_month": 1,
+                    "pay_play": 0,
+                    "pay_status": 0,
+                    "price_album": 0,
+                    "price_track": 200,
+                    "time_free": 0
+                  },
+                  "protect": 0,
+                  "sa": 0,
+                  "singer": [
+                    {
+                      "id": 3246,
+                      "mid": "002WH6Fs25l9rK",
+                      "name": "龚芝怡",
+                      "pmid": "",
+                      "title": "龚芝怡",
+                      "type": 1,
+                      "uin": 0
+                    }
+                  ],
+                  "status": 0,
+                  "subtitle": "",
+                  "tag": 0,
+                  "tid": 0,
+                  "time_public": "2012-03-01",
+                  "title": "在我左右",
+                  "title_hilight": "在我左右",
+                  "type": 0,
+                  "url": "",
+                  "version": 0,
+                  "vf": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "vi": [
+                    3997
+                  ],
+                  "volume": {
+                    "gain": -6.5799999237060547,
+                    "lra": 14.63599967956543,
+                    "peak": 0.87400001287460327
+                  },
+                  "vs": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "hotness": {
+                "desc": "",
+                "icon_url": "",
+                "jump_type": 0,
+                "jump_url": ""
+              },
+              "href3": "",
+              "id": 686559,
+              "index_album": 3,
+              "index_cd": 0,
+              "interval": 219,
+              "isonly": 0,
+              "ksong": {
+                "id": 292857,
+                "mid": "002ws73n2DThPG"
+              },
+              "label": "0",
+              "language": 0,
+              "lyric": "",
+              "lyric_hilight": "",
+              "mid": "004f48Y90jR34z",
+              "mv": {
+                "id": 0,
+                "name": "",
+                "title": "",
+                "vid": "",
+                "vt": 0
+              },
+              "name": "在我左右",
+              "newStatus": 2,
+              "ov": 0,
+              "pay": {
+                "pay_down": 1,
+                "pay_month": 1,
+                "pay_play": 0,
+                "pay_status": 0,
+                "price_album": 0,
+                "price_track": 200,
+                "time_free": 0
+              },
+              "protect": 11,
+              "sa": 16384,
+              "singer": [
+                {
+                  "id": 3246,
+                  "mid": "002WH6Fs25l9rK",
+                  "name": "龚芝怡",
+                  "pmid": "",
+                  "title": "龚芝怡",
+                  "type": 1,
+                  "uin": 0
+                }
+              ],
+              "status": 0,
+              "subtitle": "",
+              "tag": 11,
+              "tid": 0,
+              "time_public": "2010-05-14",
+              "title": "在我左右",
+              "title_hilight": "在我左右",
+              "type": 0,
+              "url": "",
+              "version": 0,
+              "vf": [
+                -7.9107580184936523,
+                0.9999690055847168,
+                14.614500045776367
+              ],
+              "vi": [
+                3997
+              ],
+              "volume": {
+                "gain": -8.0799999237060547,
+                "lra": 14.626999855041504,
+                "peak": 1
+              },
+              "vs": [
+                "",
+                "",
+                "",
+                "003y8qaT1qe9TV",
+                "000FCO5z2fzF4H",
+                "",
+                "",
+                "",
+                "",
+                "002oFKrd2vKLR5",
+                ""
+              ]
+            },
+            {
+              "act": 3,
+              "action": {
+                "alert": 11,
+                "icon2": 0,
+                "icons": 1217096,
+                "msgdown": 0,
+                "msgfav": 0,
+                "msgid": 0,
+                "msgpay": 0,
+                "msgshare": 0,
+                "switch": 1130259,
+                "switch2": 524288
+              },
+              "album": {
+                "id": 99113,
+                "mid": "0028aeWI0ouf4Y",
+                "name": "声.体.与言",
+                "pmid": "0028aeWI0ouf4Y_1",
+                "subtitle": "",
+                "time_public": "",
+                "title": "声.体.与言"
+              },
+              "bpm": 59,
+              "content": "",
+              "desc": "",
+              "desc_hilight": "",
+              "docid": "11455245085326794498",
+              "eq": 0,
+              "es": "",
+              "file": {
+                "b_30s": 0,
+                "e_30s": 0,
+                "hires_bitdepth": 0,
+                "hires_sample": 0,
+                "media_mid": "003xH2Kh0HVols",
+                "size_128mp3": 3233534,
+                "size_192aac": 0,
+                "size_192ogg": 0,
+                "size_24aac": 0,
+                "size_320mp3": 0,
+                "size_360ra": [],
+                "size_48aac": 1237580,
+                "size_96aac": 2469929,
+                "size_96ogg": 2156791,
+                "size_ape": 0,
+                "size_dolby": 0,
+                "size_dts": 0,
+                "size_flac": 0,
+                "size_hires": 0,
+                "size_new": [
+                  0,
+                  18727913,
+                  48978514,
+                  0,
+                  0,
+                  13566100
+                ],
+                "size_try": 0,
+                "try_begin": 79639,
+                "try_end": 191966,
+                "url": ""
+              },
+              "fnote": 8013,
+              "genre": 0,
+              "grp": [],
+              "hotness": {
+                "desc": "",
+                "icon_url": "",
+                "jump_type": 0,
+                "jump_url": ""
+              },
+              "href3": "",
+              "id": 7410408,
+              "index_album": 13,
+              "index_cd": 0,
+              "interval": 202,
+              "isonly": 0,
+              "ksong": {
+                "id": 286575,
+                "mid": "004WR8sw4DShzG"
+              },
+              "label": "0",
+              "language": 0,
+              "lyric": "",
+              "lyric_hilight": "",
+              "mid": "001dZ5R34ZtfGC",
+              "mv": {
+                "id": 0,
+                "name": "",
+                "title": "",
+                "vid": "",
+                "vt": 0
+              },
+              "name": "最好的我",
+              "newStatus": 2,
+              "ov": 0,
+              "pay": {
+                "pay_down": 0,
+                "pay_month": 0,
+                "pay_play": 0,
+                "pay_status": 0,
+                "price_album": 0,
+                "price_track": 0,
+                "time_free": 0
+              },
+              "protect": 0,
+              "sa": 0,
+              "singer": [
+                {
+                  "id": 3246,
+                  "mid": "002WH6Fs25l9rK",
+                  "name": "龚芝怡",
+                  "pmid": "",
+                  "title": "龚芝怡",
+                  "type": 1,
+                  "uin": 0
+                }
+              ],
+              "status": 0,
+              "subtitle": "",
+              "tag": 0,
+              "tid": 0,
+              "time_public": "2012-03-01",
+              "title": "最好的我 (Demo)",
+              "title_hilight": "最好的我 (Demo)",
+              "type": 0,
+              "url": "",
+              "version": 5,
+              "vf": [
+                0,
+                0,
+                0
+              ],
+              "vi": [
+                0
+              ],
+              "volume": {
+                "gain": -4.4039998054504395,
+                "lra": 4.7899999618530273,
+                "peak": 0.83700001239776611
+              },
+              "vs": [
+                "",
+                "",
+                "",
+                "",
+                "002vlObi1kCTov",
+                "",
+                "",
+                "",
+                "",
+                "0008352U0oZquC",
+                ""
+              ]
+            }
+          ]
+        },
+        "songlist": {
+          "list": []
+        },
+        "user": {
+          "list": []
+        },
+        "zhida": {
+          "list": []
+        }
+      },
+      "code": 0,
+      "feedbackURL": "",
+      "meta": {
+        "cid": "",
+        "curpage": 1,
+        "dir": "L",
+        "display_order": [],
+        "ein": 10,
+        "estimate_sum": 2573,
+        "expid": "",
+        "is_filter": 0,
+        "next_page_start": {},
+        "nextpage": 2,
+        "perpage": 10,
+        "query": "龚芝怡 平行线",
+        "report_info": {
+          "items": {}
+        },
+        "result_trustworthy": 1,
+        "ret": 0,
+        "safetyType": 0,
+        "safetyUrl": "",
+        "searchid": "",
+        "sid": "",
+        "sin": 0,
+        "step_rela_syntax_tree": {},
+        "sum": 1023,
+        "tab_list": [],
+        "uid": "",
+        "v": 0
+      },
+      "ver": 0
+    }
+  }
+}

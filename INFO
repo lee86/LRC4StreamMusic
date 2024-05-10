@@ -1,0 +1,10 @@
+{
+    "name": "qq_music_lyric",
+    "displayname": "QQ音乐",
+    "description": "根据曲名获取歌词",
+    "version": "1.0.1a",
+    "site": "http://music.qq.com",
+    "module": "qqmusic.php",
+    "type": "lyric",
+    "class": "LyricQQMusic"
+}
