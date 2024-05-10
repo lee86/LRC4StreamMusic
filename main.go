@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"qqlrc/openapi"
+	"strings"
 )
 
 func main() {
@@ -26,7 +27,13 @@ func lyricInfoHandler(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Fprint(w, getlrc(mj.MusicSearchSearchCgiService.Data.Body.Song.List[0].Mid))
+	if len(mj.MusicSearchSearchCgiService.Data.Body.Song.List) >= 1 {
+		lrc := getlrc(mj.MusicSearchSearchCgiService.Data.Body.Song.List[0].Mid)
+		lrc = strings.ReplaceAll(lrc, "[by:]", "[by: Jiangwe Leo QQLrc]")
+		fmt.Fprint(w, lrc)
+		return
+	}
+	fmt.Fprint(w, "have no msg")
 }
 
 type MusicjsonN struct {
