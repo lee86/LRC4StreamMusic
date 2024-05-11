@@ -1,4 +1,4 @@
-package main
+package openapi
 
 import (
 	"fmt"
@@ -7,29 +7,6 @@ import (
 	"net/http"
 	"os"
 )
-
-func GET(s string) []byte {
-	client := &http.Client{}
-	reqest, err := http.NewRequest("GET", s, nil) //建立一个请求
-	if err != nil {
-		fmt.Println("Fatal error ", err.Error())
-		os.Exit(0)
-	}
-	//Add 头协议
-	reqest.Header.Add("Host", "")
-	reqest.Header.Add("Referer", "https://y.qq.com/")
-	response, err := client.Do(reqest) //提交
-
-	defer response.Body.Close()
-
-	body, err := ioutil.ReadAll(response.Body)
-	if err != nil {
-		// handle error
-	}
-	fmt.Println(string(body))
-	return body
-
-}
 
 func POST(s string, data io.Reader) []byte {
 	client := &http.Client{}
@@ -53,4 +30,26 @@ func POST(s string, data io.Reader) []byte {
 	}
 	fmt.Println(string(body))
 	return body
+}
+func GET(s string) []byte {
+	client := &http.Client{}
+	reqest, err := http.NewRequest("GET", s, nil) //建立一个请求
+	if err != nil {
+		fmt.Println("Fatal error ", err.Error())
+		os.Exit(0)
+	}
+	//Add 头协议
+	reqest.Header.Add("Host", "")
+	reqest.Header.Add("Referer", "https://y.qq.com/")
+	response, err := client.Do(reqest) //提交
+
+	defer response.Body.Close()
+
+	body, err := ioutil.ReadAll(response.Body)
+	if err != nil {
+		// handle error
+	}
+	fmt.Println(string(body))
+	return body
+
 }

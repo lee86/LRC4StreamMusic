@@ -11,11 +11,6 @@ func RouteLoadHandle(uri string, handle func(w http.ResponseWriter, r *http.Requ
 	route.PathPrefix(fmt.Sprintf("%v", uri)).HandlerFunc(handle)
 }
 
-func LoadAllRoute() {
-	//RouteLoadHandle("/api/v1/msg", msgHandle)
-	//RouteLoadHandle("/api/v1/external/gitea", giteaHandle)
-	//RouteLoadHandle("/api/v1/sms", smsHandle)
-}
 func StartServer() {
 	srv := &http.Server{
 		Handler:      route,
