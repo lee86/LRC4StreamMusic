@@ -3,7 +3,6 @@ package openapi
 import (
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"os"
 )
@@ -24,7 +23,7 @@ func POST(s string, data io.Reader) []byte {
 	fmt.Println(response)
 	defer response.Body.Close()
 
-	body, err := ioutil.ReadAll(response.Body)
+	body, err := io.ReadAll(response.Body)
 	if err != nil {
 		// handle error
 	}
@@ -45,7 +44,7 @@ func GET(s string) []byte {
 
 	defer response.Body.Close()
 
-	body, err := ioutil.ReadAll(response.Body)
+	body, err := io.ReadAll(response.Body)
 	if err != nil {
 		// handle error
 	}
