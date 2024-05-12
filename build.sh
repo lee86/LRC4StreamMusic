@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 
+# 编译类型设置
+os="linux darwin windows"
+arch="arm64 amd64"
+winSuffix=".exe"
+
 # 版本参数配置
-prog=StreamMusicLyric
+program=StreamMusicLyric
 version=0.1.1
 branch=b
 versions=v${version}.${branch}
@@ -14,53 +19,23 @@ go mod tidy
 go mod vendor
 
 # 交叉编译 amd64 linux
-GOOS=linux
-GOARCH=amd64
-go env -w GOOS=${GOOS} GOARCH=${GOARCH}
-go build -ldflags "\
--X main.Version=v${version}-${branch} \
--X main.Branch=${head} \
--X main.Commit=${commit} \
--X main.BuildTime=${time} \
--X main.GOOS=${GOOS} \
--X main.GOARCH=${GOARCH} \
-" -v -o ${prog}-${GOOS}-${GOARCH}-${versions} ./
-
-# 交叉编译 amd64 linux
-GOOS=linux
-GOARCH=arm64
-go env -w GOOS=${GOOS} GOARCH=${GOARCH}
-go build -ldflags "\
--X main.Version=v${version}-${branch} \
--X main.Branch=${head} \
--X main.Commit=${commit} \
--X main.BuildTime=${time} \
--X main.GOOS=${GOOS} \
--X main.GOARCH=${GOARCH} \
-" -v -o ${prog}-${GOOS}-${GOARCH}-${versions} ./
-
-# 交叉编译 arm64 darwin
-GOOS=darwin
-GOARCH=arm64
-go env -w GOOS=${GOOS} GOARCH=${GOARCH}
-go build -ldflags "\
--X main.Version=v${version}-${branch} \
--X main.Branch=${head} \
--X main.Commit=${commit} \
--X main.BuildTime=${time} \
--X main.GOOS=${GOOS} \
--X main.GOARCH=${GOARCH} \
-" -v -o ${prog}-${GOOS}-${GOARCH}-${versions} ./
-
-# 交叉编译 amd64 windows
-GOOS=windows
-GOARCH=amd64
-go env -w GOOS=${GOOS} GOARCH=${GOARCH}
-go build -ldflags "\
--X main.Version=v${version}-${branch} \
--X main.Branch=${head} \
--X main.Commit=${commit} \
--X main.BuildTime=${time} \
--X main.GOOS=${GOOS} \
--X main.GOARCH=${GOARCH} \
-" -v -o ${prog}-${GOOS}-${GOARCH}-${versions}.exe ./
+for GOOS in ${os}; do
+  for GOARCH in ${arch}; do
+    go env -w GOOS=${GOOS} GOARCH=${GOARCH}
+    if [ ${GOOS} == "windows" ]; then
+      filename=${filename}-${GOOS}-${GOARCH}-${versions}${winSuffix}
+    else
+      filename=${program}-${GOOS}-${GOARCH}-${versions}
+    fi
+    echo "${filename}，开始编译"
+    go build -ldflags "\
+    -X main.Version=v${version}-${branch} \
+    -X main.Branch=${head} \
+    -X main.Commit=${commit} \
+    -X main.BuildTime=${time} \
+    -X main.GOOS=${GOOS} \
+    -X main.GOARCH=${GOARCH} \
+    " -v -o ${filename} ./
+    echo "${filename}，编译结束"
+  done
+done
