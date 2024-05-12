@@ -22,8 +22,8 @@ go mod vendor
 for GOOS in ${os}; do
   for GOARCH in ${arch}; do
     go env -w GOOS=${GOOS} GOARCH=${GOARCH}
-    if [ ${GOOS} == "windows" ]; then
-      filename=${filename}-${GOOS}-${GOARCH}-${versions}${winSuffix}
+    if [ "${GOOS}" == "windows" ]; then
+      filename=${program}-${GOOS}-${GOARCH}-${versions}${winSuffix}
     else
       filename=${program}-${GOOS}-${GOARCH}-${versions}
     fi
