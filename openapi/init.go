@@ -1,7 +1,6 @@
 package openapi
 
 import (
-	"fmt"
 	"github.com/gorilla/mux"
 	"github.com/zeromicro/go-zero/core/conf"
 )
@@ -13,7 +12,7 @@ var config Configuration
 func init() {
 	route = mux.NewRouter()
 	conf.MustLoad("./conf.yml", &config)
-	fmt.Println("conf: +-+-+-+-+->>>>> ", config)
+	//fmt.Println("conf: +-+-+-+-+->>>>> ", config)
 }
 
 type Configuration struct {
