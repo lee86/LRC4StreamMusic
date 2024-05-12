@@ -381,3 +381,12 @@ type LrcList struct {
 	Artist string `json:"artist"`
 	Lyrics string `json:"lyrics"`
 }
+
+type LyricCheck struct {
+	Path     string `json:"path"`
+	Title    string `json:"title"`
+	Artist   string `json:"artist"`
+	Album    string `json:"album"`
+	Lyrics   string `json:"lyrics"`
+	LyricsId string `json:"lyricsId"`
+}

@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	openapi.RouteLoadHandle("/lyric", openapi.LyricHandler)
-	openapi.RouteLoadHandle("/lyricInfo", openapi.LyricInfoHandler)
+	openapi.RouteLoadHandle("/lyric/v1", openapi.LyricHandler)
+	openapi.RouteLoadHandle("/lyricInfo/v1", openapi.LyricInfoHandler)
 	openapi.StartServer()
 }
