@@ -372,3 +372,12 @@ type Conf struct {
 		Port string `yaml:"port"`
 	}
 }
+type LrcLists struct {
+	LrcList []LrcList
+}
+type LrcList struct {
+	Id     string `json:"id"`
+	Title  string `json:"title"`
+	Artist string `json:"artist"`
+	Lyrics string `json:"lyrics"`
+}
