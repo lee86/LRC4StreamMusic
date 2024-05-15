@@ -3,7 +3,6 @@ package openapi
 import (
 	"encoding/json"
 	"fmt"
-	"io"
 	"net/http"
 	"strconv"
 	"strings"
@@ -15,7 +14,11 @@ func LyricInfoHandler(w http.ResponseWriter, r *http.Request) {
 	title := query.Get("title")
 	artist := query.Get("artist")
 	num, err := strconv.Atoi(query.Get("limit"))
-
+	if title == "" {
+		w.WriteHeader(http.StatusBadRequest)
+		w.Write([]byte(""))
+		return
+	}
 	var mj MusicjsonN
 	err = json.Unmarshal([]byte(getSongInfo(fmt.Sprintf("%v-%v", artist, title), fmt.Sprint(num))), &mj)
 	//fmt.Println(err, mj)
@@ -62,13 +65,13 @@ func LyricInfoHandler(w http.ResponseWriter, r *http.Request) {
 // LyricHandler 歌词信息确认
 // gitbobobo说是通知接口而已
 func LyricHandler(w http.ResponseWriter, r *http.Request) {
-	data, _ := io.ReadAll(r.Body)
-	var lyricCheck LyricCheck
-	json.Unmarshal(data, &lyricCheck)
+	//data, _ := io.ReadAll(r.Body)
+	//var lyricCheck LyricCheck
+	//json.Unmarshal(data, &lyricCheck)
 
-	lrc := getLrc(lyricCheck.LyricsId)
-	lrc = strings.ReplaceAll(lrc, "[by:]", "[by: Jiangwe Leo QQLrc]")
-	// 写入歌词
+	//lrc := getLrc(lyricCheck.LyricsId)
+	//lrc = strings.ReplaceAll(lrc, "[by:]", "[by: Jiangwe Leo QQLrc]")
+	// 返回200
 	w.WriteHeader(http.StatusOK)
 	w.Write([]byte("ok"))
 }
