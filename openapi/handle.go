@@ -15,7 +15,10 @@ func LyricInfoHandler(w http.ResponseWriter, r *http.Request) {
 	query := r.URL.Query()
 	title := query.Get("title")
 	artist := query.Get("artist")
+
+	keys := fmt.Sprintf("%v-%v", artist, title)
 	num, err := strconv.Atoi(query.Get("limit"))
+
 	if title == "" {
 		w.WriteHeader(http.StatusBadRequest)
 		_, err = w.Write([]byte("HAVE NO TITLE"))
@@ -25,8 +28,8 @@ func LyricInfoHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	var mj MusicjsonN
-	keys := fmt.Sprintf("%v-%v", artist, title)
-	if lyric, ok := lyricCache.CacheSelect(keys); ok {
+	// 先从缓存中查找
+	if lyric, ok := lyricCache.CacheSelect(keys); num == 1 && ok {
 		w.WriteHeader(http.StatusOK)
 		_, err = w.Write([]byte(lyric))
 		if err != nil {
@@ -34,6 +37,7 @@ func LyricInfoHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		return
 	}
+	// 缓存中没有，则从QQ音乐中获取
 	err = json.Unmarshal([]byte(getSongInfo(keys, fmt.Sprint(num))), &mj)
 	//fmt.Println(err, mj)
 	if err != nil {
@@ -45,16 +49,14 @@ func LyricInfoHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		return
 	}
+	// 获取到歌词
 	if len(mj.MusicSearchSearchCgiService.Data.Body.Song.List) > 0 {
 		if num == 1 {
 			// 返回1条
-			lrc, ok := lyricCache.CacheSelect(keys)
-			if !ok {
-				lrc = getLrc(mj.MusicSearchSearchCgiService.Data.Body.Song.List[0].Mid)
-				lrc = strings.ReplaceAll(lrc, "[by:]", "[by: Jiangwe Leo QQLrc]")
-				if !lyricCache.CacheSave(keys, []byte(lrc)) {
-					fmt.Println("save error")
-				}
+			lrc := getLrc(mj.MusicSearchSearchCgiService.Data.Body.Song.List[0].Mid)
+			lrc = strings.ReplaceAll(lrc, "[by:]", "[by: Jiangwe Leo QQLrc]")
+			if !lyricCache.CacheSave(keys, []byte(lrc)) {
+				fmt.Println("save error")
 			}
 			// 写入歌词
 			w.WriteHeader(http.StatusOK)
@@ -83,7 +85,7 @@ func LyricInfoHandler(w http.ResponseWriter, r *http.Request) {
 			if err != nil {
 				return
 			}
-			fmt.Println(string(returnMsg))
+			//fmt.Println(string(returnMsg))
 			return
 		}
 	}

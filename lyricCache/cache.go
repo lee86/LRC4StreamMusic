@@ -1,6 +1,7 @@
 package lyricCache
 
 import (
+	"fmt"
 	"log"
 	"os"
 	"path"
@@ -17,8 +18,9 @@ func CacheSelect(keys string) (lyrics string, ok bool) {
 func CacheSave(keys string, lyric []byte) bool {
 	fileName := path.Join(config.Base.CacheDir, keys)
 	if _, err := os.Stat(fileName); err == nil {
-		err := os.Remove(fileName)
+		err = os.Remove(fileName)
 		if err != nil {
+			fmt.Println(err)
 			return false
 		}
 	}
