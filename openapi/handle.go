@@ -48,10 +48,13 @@ func LyricInfoHandler(w http.ResponseWriter, r *http.Request) {
 	if len(mj.MusicSearchSearchCgiService.Data.Body.Song.List) > 0 {
 		if num == 1 {
 			// 返回1条
-			lrc, ok := lyricCache.CacheSelect(fmt.Sprintf("%v_%v", artist, title))
+			lrc, ok := lyricCache.CacheSelect(keys)
 			if !ok {
 				lrc = getLrc(mj.MusicSearchSearchCgiService.Data.Body.Song.List[0].Mid)
 				lrc = strings.ReplaceAll(lrc, "[by:]", "[by: Jiangwe Leo QQLrc]")
+				if !lyricCache.CacheSave(keys, []byte(lrc)) {
+					fmt.Println("save error")
+				}
 			}
 			// 写入歌词
 			w.WriteHeader(http.StatusOK)
@@ -101,13 +104,13 @@ func LyricHandler(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		return
 	}
-	keys := fmt.Sprintf("%v_%v", lyricCheck.Artist, lyricCheck.Title)
+	keys := fmt.Sprintf("%v-%v", lyricCheck.Artist, lyricCheck.Title)
 	lrc := getLrc(lyricCheck.LyricsId)
 	lrc = strings.ReplaceAll(lrc, "[by:]", "[by: Jiangwe Leo QQLrc]")
 	if lyricCache.CacheSave(keys, []byte(lrc)) {
 		// 返回200
 		w.WriteHeader(http.StatusOK)
-		_, err := w.Write([]byte("ok"))
+		_, err = w.Write([]byte("ok"))
 		if err != nil {
 			return
 		}
