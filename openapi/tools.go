@@ -20,7 +20,10 @@ func getLrc(songMid string) string {
 	sss = strings.Replace(sss, ")", "", -1)
 	sData := []byte(sss)
 	// 将字节切片映射到指定结构上
-	json.Unmarshal(sData, &data)
+	err := json.Unmarshal(sData, &data)
+	if err != nil {
+		fmt.Println(err)
+	}
 	//fmt.Println(data.Lyric)
 	// base64解码歌词，返回字符串
 	lyric, err := base64.StdEncoding.DecodeString(data.Lyric)

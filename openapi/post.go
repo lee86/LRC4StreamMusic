@@ -26,7 +26,12 @@ func POST(s string, data io.Reader) []byte {
 		return []byte("")
 	}
 	//fmt.Println(response)
-	defer response.Body.Close()
+	defer func(Body io.ReadCloser) {
+		err := Body.Close()
+		if err != nil {
+			fmt.Println(err)
+		}
+	}(response.Body)
 
 	body, err := io.ReadAll(response.Body)
 	if err != nil {
@@ -51,7 +56,12 @@ func GET(s string) []byte {
 		fmt.Println(err)
 		return []byte("")
 	}
-	defer response.Body.Close()
+	defer func(Body io.ReadCloser) {
+		err := Body.Close()
+		if err != nil {
+			fmt.Println(err)
+		}
+	}(response.Body)
 
 	body, err := io.ReadAll(response.Body)
 	if err != nil {
