@@ -56,7 +56,7 @@ spec:
                     script {
                         // 2. 在步骤内计算动态环境变量
                         // 添加安全目录配置，避免 dubious ownership 错误
-                        sh 'git config --global --add safe.directory /home/jenkins/agent/workspace'
+                        sh "git config --global --add safe.directory ${env.WORKSPACE}"
 
                         env.COMMIT = sh(script: 'git rev-parse HEAD', returnStdout: true).trim()
                         env.TIME = sh(script: 'date -u \'+%Y年%m月%d日%H时%M分%S秒\'', returnStdout: true).trim()
