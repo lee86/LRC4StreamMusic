@@ -32,6 +32,7 @@ spec:
         booleanParam(name: 'TEST', defaultValue: false, description: '测试标记')
         string(name: 'VERSION', defaultValue: '0.2.1', description: '项目版本号')
         string(name: 'BRANCH', defaultValue: 'r', description: '分支标识')
+        string(name: 'GIT_URL', defaultValue: 'https://git.ie8.pub:8443', description: 'git地址')
         choice(name: 'GO_PROXY', choices: ['https://mirrors.aliyun.com/goproxy/,direct', 'https://goproxy.cn,direct'], description: 'Go模块代理')
     }
     environment {
@@ -60,7 +61,7 @@ spec:
 
                         env.COMMIT = sh(script: 'git rev-parse HEAD', returnStdout: true).trim()
                         env.TIME = sh(script: 'date -u \'+%Y年%m月%d日%H时%M分%S秒\'', returnStdout: true).trim()
-
+                        env.RELEASE_PATH = ${params.GIT_URL}/api/v1/repos/${env.JOB_NAME}/releases
                         echo "开始执行流水线"
                         echo "项目: ${env.PROGRAM}"
                         echo "版本: ${env.VERSIONS}"
@@ -135,7 +136,7 @@ spec:
                         // 尝试检查该Tag是否已存在
                         def createReleaseResponse = sh(script: """
                             curl -f -s -H "Authorization: token $GITEA_PUBLISH_TOKEN" \
-                            https://git.ie8.pub:8443/api/v1/repos/jiangwe/zulipBot/releases/tags/v${params.VERSION}-${params.BRANCH} || true
+                            ${env.RELEASE_PATH}/tags/v${params.VERSION}-${params.BRANCH} || true
                         """, returnStdout: true).trim()
 
                         if (createReleaseResponse != "") {
@@ -149,7 +150,7 @@ spec:
                                     -H "Authorization: token $GITEA_PUBLISH_TOKEN" \
                                     -H "Content-Type: application/json" \
                                     -H "accept: application/json" \
-                                    "https://git.ie8.pub:8443/api/v1/repos/jiangwe/zulipBot/releases" \
+                                    "${env.RELEASE_PATH}" \
                                     -d '{
                                         "tag_name": "v${params.VERSION}-${params.BRANCH}",
                                         "name": "Version ${params.VERSION} (${params.BRANCH})",
@@ -165,7 +166,7 @@ spec:
                         // 我们需要从创建返回的JSON中获取release的id
                         def releaseInfo = readJSON text: createReleaseResponse
                         def releaseId = releaseInfo.id
-                        def uploadUrl = "https://git.ie8.pub:8443/api/v1/repos/jiangwe/zulipBot/releases/${releaseId}/assets"
+                        def uploadUrl = "${env.RELEASE_PATH}/${releaseId}/assets"
 
                         // 3. 上传 artifacts 目录下的所有文件作为该 Release 的附件
                         def files = findFiles(glob: 'artifacts/*')
