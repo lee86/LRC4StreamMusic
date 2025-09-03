@@ -36,6 +36,7 @@ spec:
         choice(name: 'GO_PROXY', choices: ['https://mirrors.aliyun.com/goproxy/,direct', 'https://goproxy.cn,direct'], description: 'Go模块代理')
     }
     environment {
+        REPO = "jiangwe/LRC4StreamMusic"
         PROGRAM = "lrc4StreamMusic"
         OS_LIST = "linux darwin windows"
         ARCH_LIST = "arm64 amd64"
@@ -61,7 +62,7 @@ spec:
 
                         env.COMMIT = sh(script: 'git rev-parse HEAD', returnStdout: true).trim()
                         env.TIME = sh(script: 'date -u \'+%Y年%m月%d日%H时%M分%S秒\'', returnStdout: true).trim()
-                        env.RELEASE_PATH = "${params.GIT_URL}/api/v1/repos/${env.JOB_NAME}/releases"
+                        env.RELEASE_PATH = "${params.GIT_URL}/api/v1/repos/${env.REPO}/releases"
                         echo "开始执行流水线"
                         echo "项目: ${env.PROGRAM}"
                         echo "版本: ${env.VERSIONS}"
