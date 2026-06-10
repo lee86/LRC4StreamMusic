@@ -4,3 +4,37 @@
 {"@timestamp":"2026-06-10 21:04:50.581","caller":"LRC4StreamMusic/handle.go:47","content":"开始请求QQ音乐api","level":"info"}
 {"@timestamp":"2026-06-10 21:05:00.945","caller":"LRC4StreamMusic/handle.go:117","content":"陈彼得-不由己 - 本地缓存完成","level":"info"}
 {"@timestamp":"2026-06-10 21:05:31.130","caller":"proc/shutdown.go:84","content":"Got signal 2, shutting down...","level":"info"}
+{"@timestamp":"2026-06-11 01:27:12.753","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:27:20.205","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:27:48.097","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:28:48.096","caller":"LRC4StreamMusic/main.go:39","content":"2026-06-11 01:28:48 health","level":"info"}
+{"@timestamp":"2026-06-11 01:29:16.100","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:29:19.669","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:29:50.472","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:29:50.472","caller":"proc/shutdown.go:84","content":"Got signal 2, shutting down...","level":"info"}
+{"@timestamp":"2026-06-11 01:29:52.396","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:30:44.365","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:30:46.070","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:31:00.557","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:31:03.120","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:31:14.148","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:31:14.148","caller":"proc/shutdown.go:84","content":"Got signal 2, shutting down...","level":"info"}
+{"@timestamp":"2026-06-11 01:31:15.893","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:32:15.891","caller":"LRC4StreamMusic/main.go:39","content":"2026-06-11 01:32:15 health","level":"info"}
+{"@timestamp":"2026-06-11 01:33:15.891","caller":"LRC4StreamMusic/main.go:39","content":"2026-06-11 01:33:15 health","level":"info"}
+{"@timestamp":"2026-06-11 01:34:15.891","caller":"LRC4StreamMusic/main.go:39","content":"2026-06-11 01:34:15 health","level":"info"}
+{"@timestamp":"2026-06-11 01:35:15.890","caller":"LRC4StreamMusic/main.go:39","content":"2026-06-11 01:35:15 health","level":"info"}
+{"@timestamp":"2026-06-11 01:35:33.941","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:35:36.687","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:36:08.370","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:36:11.119","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:36:50.524","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:36:50.524","caller":"proc/shutdown.go:84","content":"Got signal 2, shutting down...","level":"info"}
+{"@timestamp":"2026-06-11 01:36:53.181","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:37:53.180","caller":"LRC4StreamMusic/main.go:39","content":"2026-06-11 01:37:53 health","level":"info"}
+{"@timestamp":"2026-06-11 01:38:10.916","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:38:10.916","caller":"proc/shutdown.go:84","content":"Got signal 2, shutting down...","level":"info"}
+{"@timestamp":"2026-06-11 01:38:13.865","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:38:29.023","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}
+{"@timestamp":"2026-06-11 01:38:31.966","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-11 01:39:15.648","caller":"LRC4StreamMusic/main.go:23","content":"收到关闭信号，正在关闭...","level":"info"}

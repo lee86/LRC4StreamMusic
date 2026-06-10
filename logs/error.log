@@ -1,0 +1,3 @@
+{"@timestamp":"2026-06-11 01:27:12.755","caller":"LRC4StreamMusic/gin.go:47","content":"listen tcp :8080: bind: address already in use","level":"error"}
+{"@timestamp":"2026-06-11 01:27:48.099","caller":"LRC4StreamMusic/gin.go:47","content":"listen tcp :8080: bind: address already in use","level":"error"}
+{"@timestamp":"2026-06-11 01:29:19.671","caller":"LRC4StreamMusic/gin.go:47","content":"listen tcp :8080: bind: address already in use","level":"error"}
