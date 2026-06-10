@@ -1,4 +1,0 @@
-net:
-  port: 8080
-base:
-  cache: /data/lyric

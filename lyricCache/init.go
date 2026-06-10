@@ -7,8 +7,7 @@ import (
 var config Configuration
 
 func init() {
-	conf.MustLoad("./conf.yml", &config)
-	//fmt.Println("conf: +-+-+-+-+->>>>> ", config)
+	conf.MustLoad("config.yml", &config)
 }
 
 type Configuration struct {

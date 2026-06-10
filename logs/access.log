@@ -1,0 +1,6 @@
+{"@timestamp":"2026-06-10 21:04:48.021","caller":"LRC4StreamMusic/init.go:30","content":"主函数-日志开启控制台输出","level":"info"}
+{"@timestamp":"2026-06-10 21:04:50.581","caller":"LRC4StreamMusic/handle.go:19","content":"解析请求开始","level":"info"}
+{"@timestamp":"2026-06-10 21:04:50.581","caller":"LRC4StreamMusic/handle.go:27","content":"解析请求结束 , 歌手 不由己 , 歌曲 陈彼得 , 请求限制 10","level":"info"}
+{"@timestamp":"2026-06-10 21:04:50.581","caller":"LRC4StreamMusic/handle.go:47","content":"开始请求QQ音乐api","level":"info"}
+{"@timestamp":"2026-06-10 21:05:00.945","caller":"LRC4StreamMusic/handle.go:117","content":"陈彼得-不由己 - 本地缓存完成","level":"info"}
+{"@timestamp":"2026-06-10 21:05:31.130","caller":"proc/shutdown.go:84","content":"Got signal 2, shutting down...","level":"info"}

@@ -1,27 +1,27 @@
 package lyricCache
 
 import (
-	"fmt"
 	"log"
 	"os"
 	"path"
 )
 
 func CacheSelect(keys string) (lyrics string, ok bool) {
-	lyric, err := os.ReadFile(path.Join(config.Base.CacheDir, keys))
+	f := path.Join(config.Base.CacheDir, keys)
+	//fmt.Println("Loading", f)
+	lyric, err := os.ReadFile(f)
 	if err != nil {
 		return "", false
 	}
 	return string(lyric), true
 }
 
-func CacheSave(keys string, lyric []byte) bool {
+func CacheSave(keys string, lyric []byte) (error, bool) {
 	fileName := path.Join(config.Base.CacheDir, keys)
 	if _, err := os.Stat(fileName); err == nil {
 		err = os.Remove(fileName)
 		if err != nil {
-			fmt.Println(err)
-			return false
+			return err, false
 		}
 	}
 	if file, err := os.OpenFile(fileName, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0755); err == nil {
@@ -35,8 +35,8 @@ func CacheSave(keys string, lyric []byte) bool {
 		// 写入歌词文件
 		_, err = file.Write(lyric)
 		if err != nil {
-			return false
+			return err, false
 		}
 	}
-	return true
+	return nil, true
 }

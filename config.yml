@@ -1,0 +1,7 @@
+gin:
+  port: 8080
+  mode: debug
+base:
+  cache: cache
+log:
+  stdout: true

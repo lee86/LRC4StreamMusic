@@ -1,0 +1,14 @@
+service_name: lrc
+mode: file
+encoding: json
+timeFormat: 2006-01-02 15:04:05.000
+fileTimeFormat: 2006-01-02-15
+path: logs
+level: info
+maxContentLength: 10240
+compress: true
+stat: true
+keepDays: 30
+maxSize: 1024
+maxBackups: 10
+rotate: daily

@@ -4,6 +4,9 @@ import (
 	"flag"
 	"fmt"
 	"os"
+
+	"github.com/zeromicro/go-zero/core/conf"
+	"github.com/zeromicro/go-zero/core/logx"
 )
 
 var version = flag.Bool("version", false, "测试")
@@ -16,7 +19,18 @@ var (
 	GOARCH    string
 )
 
+var config Configuration
+
 func init() {
+	conf.MustLoad("config.yml", &config)
+	var c logx.LogConf
+	conf.MustLoad("config-log.yml", &c) // 加载配置文件
+	logx.MustSetup(c)                   // 设置日志配置
+	if config.Log.Stdout {
+		logx.Info("主函数-日志开启控制台输出")
+		logx.AddWriter(logx.NewWriter(os.Stdout)) // 添加控制台输出
+	}
+
 	flag.Parse()
 	if *version {
 		fmt.Println("|------------------------------ VERSION INFO -----------------------------|")
@@ -30,4 +44,18 @@ func init() {
 
 		os.Exit(0)
 	}
+}
+
+// Configuration 分层配置
+type Configuration struct {
+	Gin GinConfig `json:"gin" yaml:"gin"`
+	Log struct {
+		Stdout bool `json:"stdout"`
+	} `json:"log"`
+}
+
+// GinConfig Gin 服务配置
+type GinConfig struct {
+	Port int    `json:"port" yaml:"port,default=8080"` // HTTP 端口
+	Mode string `json:"mode" yaml:"mode"`              // 运行模式: debug/release/test
 }
