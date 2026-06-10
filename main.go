@@ -4,7 +4,6 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
-	"time"
 
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/core/proc"
@@ -25,18 +24,15 @@ func main() {
 		logx.Close()
 		os.Exit(0)
 	}()
-	// 初始化voce模块，传入配置文件路径
 
-	//voce.Init(*configFile)
+	go save()
 	go start()
-	//go start()
+
 	for {
 		select {
 		case <-proc.Done(): // 检查程序是否需要退出
 			os.Exit(0)
 		default:
-			time.Sleep(time.Second * 60)
-			logx.Info(time.Now().Format("2006-01-02 15:04:05"), " health") // 打印当前时间到日志
 		}
 	}
 }

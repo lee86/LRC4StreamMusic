@@ -22,6 +22,7 @@ func start() {
 		v1 := api.Group("/v1")
 		{
 			v1.GET("/lyricInfo", LyricInfoHandler)
+			v1.GET("/health", healthHandler)
 			v1.POST("/lyricCheck", LyricHandler)
 		}
 	}
@@ -31,6 +32,11 @@ func start() {
 	fmt.Printf("| be ready to bind PORT: %v    Have fun! \n", config.Gin.Port)
 	fmt.Println("|-------------------------------------------------------------------------|")
 	startServer()
+}
+
+func healthHandler(c *gin.Context) {
+	c.JSON(http.StatusOK, gin.H{"status": "ok"})
+	return
 }
 
 func startServer() {

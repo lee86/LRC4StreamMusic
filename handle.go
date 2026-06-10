@@ -24,7 +24,7 @@ func LyricInfoHandler(ctx *gin.Context) {
 	if err != nil {
 		num = 1
 	}
-	logx.Infof("解析请求结束 , 歌手 %v , 歌曲 %v , 请求限制 %v", title, artist, num)
+	logx.Infof("解析请求结束 , 歌手 %v , 歌曲 %v , 请求限制 %v", artist, title, num)
 	// 判断title是否非空
 	if title == "" {
 		logx.Info("歌曲名为空，不接受请求，返回")
@@ -36,25 +36,27 @@ func LyricInfoHandler(ctx *gin.Context) {
 
 	var mj openapi.MusicjsonN
 	if num == 1 {
+		logx.Info("开始请求缓存")
 		// 先从缓存中查找，可命中则返回本地缓存数据
 		if lyric, ok := lyricCache.CacheSelect(keys); ok {
 			logx.Info("命中缓存，结束请求")
 			ctx.String(http.StatusOK, lyric)
 			return
 		}
+		logx.Info("未命中缓存")
 	}
 	// 缓存中没有，则从QQ音乐中重新请求获取
 	logx.Info("开始请求QQ音乐api")
 	err = json.Unmarshal([]byte(openapi.GetSongInfo(keys, num)), &mj)
-	//fmt.Println(err, mj)
 	if err != nil {
+		logx.Error("json序列化失败 ", err)
 		ctx.JSONP(http.StatusNotFound, gin.H{"success": true, "errMsg": "从QQ音乐获取歌曲信息失败", "errCode": 40402})
 		return
 	}
 	// 获取到歌词
 	if len(mj.MusicSearchSearchCgiService.Data.Body.Song.List) > 0 {
+		// 直接返回第一组命中歌词
 		if num == 1 {
-			// 返回1条
 			lyric, err := openapi.GetLrc(mj.MusicSearchSearchCgiService.Data.Body.Song.List[0].Mid)
 			if err != nil {
 				logx.Error(err)
@@ -62,10 +64,10 @@ func LyricInfoHandler(ctx *gin.Context) {
 				return
 			}
 			lyric = strings.ReplaceAll(lyric, "[by:]", "[by: Jiangwe Leo QQLrc]")
-			if _, ok := lyricCache.CacheSave(keys, []byte(lyric)); ok {
-				logx.Error(keys, " - 本地缓存成功")
-			}
+
 			// 写入歌词
+			saveFileChanel <- SaveChanMsg{keys, []byte(lyric)}
+			// 返回请求
 			ctx.String(http.StatusOK, lyric)
 			return
 		}
@@ -106,18 +108,16 @@ func LyricHandler(ctx *gin.Context) {
 		return
 	}
 	keys := fmt.Sprintf("%v-%v", lyricCheck.Artist, lyricCheck.Title)
-	lrc, err := openapi.GetLrc(lyricCheck.LyricsId)
+	lyric, err := openapi.GetLrc(lyricCheck.LyricsId)
 	if err != nil {
 		logx.Error(err)
 		ctx.String(http.StatusOK, err.Error())
 		return
 	}
-	lrc = strings.ReplaceAll(lrc, "[by:]", "[by: Jiangwe Leo QQLrc]")
-	if err, ok := lyricCache.CacheSave(keys, []byte(lrc)); ok {
-		logx.Info(keys, " - 本地缓存完成")
-	} else {
-		logx.Error(keys, " - 本地缓存失败 ", err)
-	}
+	lyric = strings.ReplaceAll(lyric, "[by:]", "[by: Jiangwe Leo QQLrc]")
+
+	// 写入歌词
+	saveFileChanel <- SaveChanMsg{keys, []byte(lyric)}
 	// 无论是否成功缓存，均返回200
 	ctx.JSONP(http.StatusOK, "ok")
 }

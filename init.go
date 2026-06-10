@@ -18,7 +18,7 @@ var (
 	GOOS      string
 	GOARCH    string
 )
-
+var saveFileChanel = make(chan SaveChanMsg, 100)
 var config Configuration
 
 func init() {
@@ -58,4 +58,9 @@ type Configuration struct {
 type GinConfig struct {
 	Port int    `json:"port" yaml:"port,default=8080"` // HTTP 端口
 	Mode string `json:"mode" yaml:"mode"`              // 运行模式: debug/release/test
+}
+
+type SaveChanMsg struct {
+	Key   string
+	Value []byte
 }

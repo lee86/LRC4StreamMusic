@@ -7,7 +7,7 @@ winSuffix=".exe"
 
 # 版本参数配置
 program=StreamMusicLyric
-version=0.1.2
+version=0.3.1
 branch=b
 versions=v${version}.${branch}
 head=$(git rev-parse --abbrev-ref HEAD)
